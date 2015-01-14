@@ -32,7 +32,7 @@ for item in holder:
     soup = BeautifulSoup(page_content)
     #print soup
     
-    #print str(item).strip('[\'\']')
+    print str(item).strip('[\'\']')
     req = urllib2.Request(str(item).strip('[\'\']'), headers = headers)
     page = urllib2.urlopen(req)
     soup = BeautifulSoup(page)
@@ -49,7 +49,7 @@ for item in holder:
         #print anchor['href']
 
         str1 = anchor['href']
-        find_this = "origin"
+        find_this = "semanticmastery.com"
         
         if find_this in str1:
             print find_this, " has been found in this link back to the site: ", str1, "via this onpage anchor :", anchor
