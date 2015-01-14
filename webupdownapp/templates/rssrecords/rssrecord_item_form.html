@@ -1,0 +1,22 @@
+<form id="gi-form"
+      action="{% if rssrecord.uuid %}
+      {{ rssrecord.get_update_url }}{% else %}{% url 'rssrecord_new' %}{% endif %}"
+      method="post">
+    {% csrf_token %}
+    <div id="gi-h-w">
+        <h3 class="gi-mh">{{ form.name }}</h3>
+        <span>{{ form.name.errors }}</span>
+    </div>
+    <div class="row">
+        <div class="col-md-9">
+            <p>{{ form.url }}</p>
+            <span>{{ form.url.errors }}</span>
+        </div>
+        <div class="col-md-3">
+            <p class="nm">{{ form.desc }}</p>
+            <span>{{ form.desc.errors }}</span>
+        </div>
+    </div>
+    <input id="gi-form-submit" class="btn btn-primary" type="submit" value="SAVE">
+    <p>{{ form.non_field_errors }}</p>
+</form>

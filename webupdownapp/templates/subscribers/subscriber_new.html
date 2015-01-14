@@ -1,0 +1,160 @@
+{% extends 'base.html' %}
+{% block title %}Signup{% endblock title %}
+
+{% block content %}
+    <div id="content-container" class="container p-none">
+        <div class="side-p">
+            <form id="user-reg-form" action="." method="post">
+                {% csrf_token %}
+                {# Username & Password Section #}
+                <h3>Signup for a $5 Monthly Subscription</h3>
+                <h5 class="sn-sh">CREATE A USERNAME AND PASSWORD</h5>
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th>{{ form.username.label }}</th>
+                            <th>{{ form.email.label }}</th>
+                        </tr>
+                        <tr>
+                            <td>{{ form.username }}</td>
+                            <td>{{ form.email }}</td>
+                        </tr>
+                        <tr>
+                            <td>{{ form.username.errors }}</td>
+                            <td>{{ form.email.errors }}</td>
+                        </tr>
+                        <tr>
+                            <th>Password</th>
+                            <th>Confirm Password</th>
+                        </tr>
+                        <tr>
+                            <td>{{ form.password1 }}</td>
+                            <td>{{ form.password2 }}</td>
+                        </tr>
+                        <tr>
+                            <td>{{ form.password1.errors }}</td>
+                            <td>{{ form.password2.errors }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+                {# Billing Address Section #}
+{#                <h5 class="sn-sh">YOUR BILLING ADDRESS</h5>#}
+{#                <table class="table">#}
+{#                    <tbody>#}
+{#                        <tr>#}
+{#                            <th>{{ form.first_name.label }}</th>#}
+{#                            <th>{{ form.last_name.label }}</th>#}
+{#                        </tr>#}
+{#                        <tr>#}
+{#                            <td>{{ form.first_name }}</td>#}
+{#                            <td>{{ form.last_name }}</td>#}
+{#                        </tr>#}
+{#                        <tr>#}
+{#                            <td>{{ form.first_name.errors }}</td>#}
+{#                            <td>{{ form.last_name.errors }}</td>#}
+{#                        </tr>#}
+{#                        <tr>#}
+{#                            <th>{{ form.address_one.label }}</th>#}
+{#                            <th>{{ form.address_two.label }}</th>#}
+{#                        </tr>#}
+{#                        <tr>#}
+{#                            <td>{{ form.address_one }}</td>#}
+{#                            <td>{{ form.address_two }}</td>#}
+{#                        </tr>#}
+{#                        <tr>#}
+{#                            <td>{{ form.address_one.errors }}</td>#}
+{#                            <td>{{ form.address_two.errrors }}</td>#}
+{#                        </tr>#}
+{#                        <tr>#}
+{#                            <th>{{ form.city.label }}</th>#}
+{#                            <th>{{ form.state.label }}</th>#}
+{#                        </tr>#}
+{#                        <tr>#}
+{#                            <td>{{ form.city }}</td>#}
+{#                            <td>{{ form.state }}</td>#}
+{#                        </tr>#}
+{#                        <tr>#}
+{#                            <td>{{ form.city.errors }}</td>#}
+{#                            <td>{{ form.state.errors }}</td>#}
+{#                        </tr>#}
+{#                    </tbody>#}
+{#                </table>#}
+                <input class="btn btn-primary" type="submit" value="submit">
+            </form>
+            {# Credit Card Section #}
+{#            <h5 class="sn-sh">CREDIT CARD</h5>#}
+{#            <form id="payment-form" action="." method="post">#}
+{#                <table class="table">#}
+{#                    <tbody>#}
+{#                        <tr>#}
+{#                            <th>Card Number</th>#}
+{#                            <th>CVC</th>#}
+{#                            <th>Exp Month</th>#}
+{#                            <th>Exp Year</th>#}
+{#                        </tr>#}
+{#                        <tr>#}
+{#                            <td><input type="text" size="32" data-stripe="number"#}
+{#                                       class="col-md-10 form-control"/></td>#}
+{#                            <td><input type="text" size="4" data-stripe="cvc"#}
+{#                                       class="col-md-2 form-control"/></td>#}
+{#                            <td><input type="text" size="2" data-stripe="exp-month"#}
+{#                                       class="col-md-1 form-control"/></td>#}
+{#                            <td><input type="text" size="4" data-stripe="exp-year"#}
+{#                                       class="col-md-1 form-control"/></td>#}
+{#                        </tr>#}
+{#                    </tbody>#}
+{#                </table>#}
+{#                <span class="payment-errors label label-danger"></span>#}
+{#                <div class="">#}
+{#                    {% for err in form.non_field_errors %}#}
+{#                        <p class="label label-danger">{{ err }}</p>#}
+{#                    {% endfor %}#}
+{#                </div>#}
+{#                <input id="payment-submit" type="submit" value="Signup"#}
+{#                       class="btn btn-primary"/>#}
+{#            </form>#}
+        </div>
+    </div>
+{% endblock content %}
+
+{% block footer_javascript_page %}
+    <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+    <script type="text/javascript">
+        // This identifies your website in the createToken call below
+        Stripe.setPublishableKey("{{ STRIPE_PUBLISHABLE_KEY }}");
+
+        var stripeResponseHandler = function(status, response) {
+            var $form = $('#payment-form');
+            var $regform = $('#user-reg-form');
+
+            if (response.error) {
+                // Show the errors on the form
+                $form.find('.payment-errors').text(response.error.message);
+                $form.find('#payment-submit').prop('disabled', false);
+            } else {
+                // token contains id, last4, and card type
+                var token = response.id;
+                // Insert the token into the form so it gets submitted to the server
+                $regform.append(
+                        $('<input type="hidden" name="stripeToken" />').val(token)
+                );
+                // and submit
+                $regform.get(0).submit();
+            }
+        };
+
+        jQuery(function($) {
+            $('#payment-form').submit(function(event) {
+            var $form = $(this);
+
+            // Disable the submit button to prevent repeated clicks
+            $form.find('#payment-submit').prop('disabled', true);
+
+            Stripe.createToken($form, stripeResponseHandler);
+
+            // Prevent the form from submitting with the default action
+            return false;
+            });
+        });
+    </script>
+{% endblock footer_javascript_page %}

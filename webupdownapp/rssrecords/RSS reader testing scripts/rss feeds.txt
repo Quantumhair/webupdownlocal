@@ -1,0 +1,13 @@
+https://gdata.youtube.com/feeds/base/users/UCdgzf1F9bnprXtymN-g9cDw/uploads
+http://originwaterdamagenews.blogspot.com/feeds/posts/default
+http://originwaterpros.tumblr.com/rss
+https://originwaterpros.wordpress.com/feed/
+http://feeds.delicious.com/v2/rss/originwaterpros
+https://www.evernote.com/pub/paulschafel/originwaterpros-news/feed
+http://www.pinterest.com/originw/feed.rss
+http://getpocket.com/users/*em1413923245744f2eb/feed/all
+https://api.app.net/feed/rss/users/301013/posts
+https://storify.com/rss/originwaterpros
+http://www.scoop.it/t/water-and-mold-damage-news/rss.xml
+http://search.issuu.com/originwaterpros/docs/recent.rss
+http://jonstechinfo2.wordpress.com/feed/

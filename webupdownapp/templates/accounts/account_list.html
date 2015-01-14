@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% block title %}Account List{% endblock title %}
+
+{% block content %}
+    <div id="content-container" class="container p-none">
+        <div id="al-container" class="side-p">
+            <div id="al-control">
+                <h3 class="ad-mh">Account List
+                    {# Add Account Link #}
+                    <span class="pull-right">
+                        <a href="{% url 'account_new' %}"
+                            class="btn btn-link p-r-none">+ Add New Account</a>
+                    </span>
+                </h3>
+                {# Account Search Form #}
+                <form action="{% url 'account_list' %}" method="get">
+                    <input id="al-search" type="text"
+                           name="account" value="{{ request.GET.account }}"
+                           class="form-control" />
+                    <input type="submit"
+                           value="Search" class="btn btn-success" />
+                </form>
+            </div>
+            {# List of Accounts #}
+            <ul id="al-group" class="strip-list">
+                {% for account in accounts %}
+                    <li class="al-item">
+                        <a href="{{ account.get_absolute_url }}"><h4 class="al-name">{{ account.name }}</h4></a>
+                        <span class="al-created">created on {{ account.created_on }}</span>
+                    </li>
+                {% endfor %}
+            </ul>
+            {# Pagination Section #}
+            {% if is_paginated %}
+                <div id="al-paginate">
+                    <ul class="strip-list al-pgnt-list">
+                        {% if page_obj.has_previous %}
+                            <li class="pull-left">
+                                <a href="{% url 'account_list' %}?page={{ page_obj.previous_page_number }}
+                                {% if request.GET.account %}&account={{ request.GET.account }}{% endif %}">Prev</a>
+                            </li>
+                        {% endif %}
+                        {% if page_obj.has_next %}
+                            <li class="pull-right">
+                                <a href="{% url 'account_list' %}?page={{ page_obj.next_page_number }}
+                                {% if request.GET.account %}&account={{ request.GET.account }}{% endif %}">Next</a>
+                            </li>
+                        {% endif %}
+                    </ul>
+                </div>
+{% endif %}
+        </div>
+    </div>
+{% endblock content %}
