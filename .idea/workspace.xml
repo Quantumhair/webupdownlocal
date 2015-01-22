@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="342dc52a-1ade-43c9-95d2-33b2e5c220f7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/webupdownLOCAL.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webupdownapp/rssrecords/RSS reader testing scripts/Web2propertiesurls.txt" afterPath="$PROJECT_DIR$/webupdownapp/rssrecords/RSS reader testing scripts/Web2propertiesurls.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webupdownapp/rssrecords/models.py" afterPath="$PROJECT_DIR$/webupdownapp/rssrecords/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webupdownapp/rssrecords/RSS reader testing scripts/rss feeds.txt" afterPath="$PROJECT_DIR$/webupdownapp/rssrecords/RSS reader testing scripts/rss feeds.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_list.html" afterPath="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_list.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py" afterPath="$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webupdownapp/rssrecords/RSS reader testing scripts/web ring alive url checker.py" afterPath="$PROJECT_DIR$/webupdownapp/rssrecords/RSS reader testing scripts/web ring alive url checker.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webupdownapp/rssrecords/views.py" afterPath="$PROJECT_DIR$/webupdownapp/rssrecords/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="webupdownLOCAL.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,6 +21,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/webupdownLOCAL$GenericTwitterScraper.coverage" NAME="GenericTwitterScraper Coverage Results" MODIFIED="1421859992279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/PythonScripts" />
+    <SUITE FILE_PATH="coverage/webupdownLOCAL$GenericRSSScraper.coverage" NAME="GenericRSSScraper Coverage Results" MODIFIED="1421527684864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/PythonScripts" />
+    <SUITE FILE_PATH="coverage/webupdownLOCAL$tasks.coverage" NAME="tasks Coverage Results" MODIFIED="1421860744726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webupdownapp/rssrecords" />
+    <SUITE FILE_PATH="coverage/webupdownLOCAL$GooglePlusScrapeTester.coverage" NAME="GooglePlusScrapeTester Coverage Results" MODIFIED="1421851711207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webupdownapp/rssrecords/RSS reader testing scripts" />
+    <SUITE FILE_PATH="coverage/webupdownLOCAL$webpagescrapetester.coverage" NAME="webpagescrapetester Coverage Results" MODIFIED="1421429681159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webupdownapp/rssrecords/RSS reader testing scripts" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -41,24 +46,22 @@
       <file leaf-file-name="tasks.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6188925" vertical-offset="135" max-vertical-offset="2610">
-              <caret line="47" column="87" selection-start-line="47" selection-start-column="87" selection-end-line="47" selection-end-column="87" />
+            <state vertical-scroll-proportion="-1.4397322" vertical-offset="1530" max-vertical-offset="5880">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1421264024036" expanded="true" signature="483:539" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-                <marker date="1421264024036" expanded="true" signature="483:540" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-                <marker date="1421264024036" expanded="true" signature="483:549" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-                <marker date="1421264024036" expanded="true" signature="483:554" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-                <marker date="1421264024036" expanded="true" signature="483:555" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-                <marker date="1421264024036" expanded="true" signature="483:572" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-                <marker date="1421264024036" expanded="true" signature="483:573" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-                <marker date="1421264024036" expanded="true" signature="483:574" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-                <marker date="1421264024036" expanded="true" signature="483:3796" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-                <marker date="1421264024036" expanded="true" signature="2502:2597" placeholder="UPDATE rssre..." />
-                <marker date="1421264024036" expanded="true" signature="2974:3071" placeholder="UPDATE rssre..." />
-                <marker date="1421264024036" expanded="true" signature="3799:3840" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-                <marker date="1421264024036" expanded="true" signature="6206:6301" placeholder="UPDATE rssre..." />
-                <marker date="1421264024036" expanded="true" signature="7033:7130" placeholder="UPDATE rssre..." />
+                <marker date="1421865167655" expanded="true" signature="1184:1257" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+                <marker date="1421865167655" expanded="true" signature="3820:3915" placeholder="UPDATE rssre..." />
+                <marker date="1421865167655" expanded="true" signature="4292:4389" placeholder="UPDATE rssre..." />
+                <marker date="1421865167655" expanded="true" signature="4980:5052" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+                <marker date="1421865167655" expanded="true" signature="6905:7000" placeholder="UPDATE rssre..." />
+                <marker date="1421865167655" expanded="true" signature="7377:7474" placeholder="UPDATE rssre..." />
+                <marker date="1421865167655" expanded="true" signature="8062:8235" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+                <marker date="1421865167655" expanded="true" signature="10231:10326" placeholder="UPDATE rssre..." />
+                <marker date="1421865167655" expanded="true" signature="10703:10800" placeholder="UPDATE rssre..." />
+                <marker date="1421865167655" expanded="true" signature="11528:11569" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+                <marker date="1421865167655" expanded="true" signature="13935:14030" placeholder="UPDATE rssre..." />
+                <marker date="1421865167655" expanded="true" signature="14762:14859" placeholder="UPDATE rssre..." />
               </folding>
             </state>
           </provider>
@@ -67,10 +70,32 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="645">
+              <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rssrecord_list.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1110">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="701" max-vertical-offset="1365">
+              <caret line="82" column="47" selection-start-line="82" selection-start-column="47" selection-end-line="82" selection-end-column="47" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,7 +109,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/webupdownapp/rssrecords/RSS reader testing scripts/webpagescrapetester.py" />
+        <option value="$PROJECT_DIR$/webupdownapp/rssrecords/RSS reader testing scripts/GooglePlusScrapeTester (copy).py" />
+        <option value="$USER_HOME$/PythonScripts/GenericRSSScraper.py" />
+        <option value="$PROJECT_DIR$/webupdownapp/rssrecords/RSS reader testing scripts/GooglePlusScrapeTester.py" />
+        <option value="$USER_HOME$/PythonScripts/GenericTwitterScraper.py" />
         <option value="$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py" />
+        <option value="$PROJECT_DIR$/webupdownapp/rssrecords/models.py" />
+        <option value="$PROJECT_DIR$/webupdownapp/rssrecords/views.py" />
+        <option value="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_list.html" />
       </list>
     </option>
   </component>
@@ -93,9 +126,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="-4" />
+    <option name="y" value="24" />
     <option name="width" value="1615" />
-    <option name="height" value="1054" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -201,13 +234,115 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="SearchEverywhereHistoryKey" value="dedent&#9;null&#9;null" />
+    <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/webupdownapp/rssrecords/RSS reader testing scripts/GooglePlusScrapeTester.py" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings />
     </option>
   </component>
-  <component name="RunManager" selected="Django server.webupdownLOCAL">
+  <component name="RunManager" selected="Python.tasks">
+    <configuration default="false" name="webpagescrapetester" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/webupdownapp/rssrecords/RSS reader testing scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="webupdownLOCAL" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/webupdownapp/rssrecords/RSS reader testing scripts/webpagescrapetester.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="GooglePlusScrapeTester" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/webupdownapp/rssrecords/RSS reader testing scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="webupdownLOCAL" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/webupdownapp/rssrecords/RSS reader testing scripts/GooglePlusScrapeTester.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="GenericRSSScraper" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/PythonScripts" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="webupdownLOCAL" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/PythonScripts/GenericRSSScraper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="GenericTwitterScraper" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/PythonScripts" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="webupdownLOCAL" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/PythonScripts/GenericTwitterScraper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="tasks" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/webupdownapp/rssrecords" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="webupdownLOCAL" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -377,6 +512,11 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
@@ -418,6 +558,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="webupdownapp.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -434,11 +575,27 @@
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Django server.webupdownLOCAL" />
+      <item index="1" class="java.lang.String" itemvalue="Python.webpagescrapetester" />
+      <item index="2" class="java.lang.String" itemvalue="Python.GooglePlusScrapeTester" />
+      <item index="3" class="java.lang.String" itemvalue="Python.GenericRSSScraper" />
+      <item index="4" class="java.lang.String" itemvalue="Python.GenericTwitterScraper" />
+      <item index="5" class="java.lang.String" itemvalue="Python.tasks" />
     </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.tasks" />
+        <item index="1" class="java.lang.String" itemvalue="Python.GenericTwitterScraper" />
+        <item index="2" class="java.lang.String" itemvalue="Python.GooglePlusScrapeTester" />
+        <item index="3" class="java.lang.String" itemvalue="Python.GenericRSSScraper" />
+        <item index="4" class="java.lang.String" itemvalue="Python.webpagescrapetester" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -454,29 +611,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1615" height="1054" extended-state="6" />
+    <frame x="65" y="24" width="1615" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2495356" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24395373" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -500,9 +657,81 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5880">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1421865167655" expanded="true" signature="1184:1257" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1421865167655" expanded="true" signature="3820:3915" placeholder="UPDATE rssre..." />
+            <marker date="1421865167655" expanded="true" signature="4292:4389" placeholder="UPDATE rssre..." />
+            <marker date="1421865167655" expanded="true" signature="4980:5052" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1421865167655" expanded="true" signature="6905:7000" placeholder="UPDATE rssre..." />
+            <marker date="1421865167655" expanded="true" signature="7377:7474" placeholder="UPDATE rssre..." />
+            <marker date="1421865167655" expanded="true" signature="8062:8235" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1421865167655" expanded="true" signature="10231:10326" placeholder="UPDATE rssre..." />
+            <marker date="1421865167655" expanded="true" signature="10703:10800" placeholder="UPDATE rssre..." />
+            <marker date="1421865167655" expanded="true" signature="11528:11569" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1421865167655" expanded="true" signature="13935:14030" placeholder="UPDATE rssre..." />
+            <marker date="1421865167655" expanded="true" signature="14762:14859" placeholder="UPDATE rssre..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="921">
+        <state vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="645">
+          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1110">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="701" max-vertical-offset="1365">
+          <caret line="82" column="47" selection-start-line="82" selection-start-column="47" selection-end-line="82" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2610">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1421865167655" expanded="true" signature="1184:1257" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1421865167655" expanded="true" signature="3820:3915" placeholder="UPDATE rssre..." />
+            <marker date="1421865167655" expanded="true" signature="4292:4389" placeholder="UPDATE rssre..." />
+            <marker date="1421865167655" expanded="true" signature="4980:5052" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1421865167655" expanded="true" signature="6905:7000" placeholder="UPDATE rssre..." />
+            <marker date="1421865167655" expanded="true" signature="7377:7474" placeholder="UPDATE rssre..." />
+            <marker date="1421865167655" expanded="true" signature="8062:8235" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1421865167655" expanded="true" signature="10231:10326" placeholder="UPDATE rssre..." />
+            <marker date="1421865167655" expanded="true" signature="10703:10800" placeholder="UPDATE rssre..." />
+            <marker date="1421865167655" expanded="true" signature="11528:11569" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1421865167655" expanded="true" signature="13935:14030" placeholder="UPDATE rssre..." />
+            <marker date="1421865167655" expanded="true" signature="14762:14859" placeholder="UPDATE rssre..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
@@ -514,30 +743,111 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334" vertical-offset="2753" max-vertical-offset="35430">
           <caret line="210" column="8" selection-start-line="210" selection-start-column="8" selection-end-line="210" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PythonScripts/GenericRSSScraper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8306189" vertical-offset="630" max-vertical-offset="1245">
+          <caret line="76" column="92" selection-start-line="76" selection-start-column="92" selection-end-line="76" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/RSS reader testing scripts/GooglePlusScrapeTester (copy).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="630">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/RSS reader testing scripts/web ring alive url checker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4" vertical-offset="33" max-vertical-offset="1155">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PythonScripts/GenericTwitterScraper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9796807" vertical-offset="180" max-vertical-offset="1605">
+          <caret line="57" column="16" selection-start-line="54" selection-start-column="0" selection-end-line="65" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/RSS reader testing scripts/GooglePlusScrapeTester.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27108434" vertical-offset="0" max-vertical-offset="705">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/RSS reader testing scripts/RSS reader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5421687" vertical-offset="0" max-vertical-offset="855">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.4683735" vertical-offset="311" max-vertical-offset="975">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/django/shortcuts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="41" max-vertical-offset="2505">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="701" max-vertical-offset="1365">
+          <caret line="82" column="47" selection-start-line="82" selection-start-column="47" selection-end-line="82" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1110">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="645">
+          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6188925" vertical-offset="135" max-vertical-offset="2610">
-          <caret line="47" column="87" selection-start-line="47" selection-start-column="87" selection-end-line="47" selection-end-column="87" />
+        <state vertical-scroll-proportion="-1.4397322" vertical-offset="1530" max-vertical-offset="5880">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1421264024036" expanded="true" signature="483:539" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1421264024036" expanded="true" signature="483:540" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1421264024036" expanded="true" signature="483:549" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1421264024036" expanded="true" signature="483:554" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1421264024036" expanded="true" signature="483:555" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1421264024036" expanded="true" signature="483:572" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1421264024036" expanded="true" signature="483:573" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1421264024036" expanded="true" signature="483:574" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1421264024036" expanded="true" signature="483:3796" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1421264024036" expanded="true" signature="2502:2597" placeholder="UPDATE rssre..." />
-            <marker date="1421264024036" expanded="true" signature="2974:3071" placeholder="UPDATE rssre..." />
-            <marker date="1421264024036" expanded="true" signature="3799:3840" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1421264024036" expanded="true" signature="6206:6301" placeholder="UPDATE rssre..." />
-            <marker date="1421264024036" expanded="true" signature="7033:7130" placeholder="UPDATE rssre..." />
+            <marker date="1421865167655" expanded="true" signature="1184:1257" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1421865167655" expanded="true" signature="3820:3915" placeholder="UPDATE rssre..." />
+            <marker date="1421865167655" expanded="true" signature="4292:4389" placeholder="UPDATE rssre..." />
+            <marker date="1421865167655" expanded="true" signature="4980:5052" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1421865167655" expanded="true" signature="6905:7000" placeholder="UPDATE rssre..." />
+            <marker date="1421865167655" expanded="true" signature="7377:7474" placeholder="UPDATE rssre..." />
+            <marker date="1421865167655" expanded="true" signature="8062:8235" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1421865167655" expanded="true" signature="10231:10326" placeholder="UPDATE rssre..." />
+            <marker date="1421865167655" expanded="true" signature="10703:10800" placeholder="UPDATE rssre..." />
+            <marker date="1421865167655" expanded="true" signature="11528:11569" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1421865167655" expanded="true" signature="13935:14030" placeholder="UPDATE rssre..." />
+            <marker date="1421865167655" expanded="true" signature="14762:14859" placeholder="UPDATE rssre..." />
           </folding>
         </state>
       </provider>

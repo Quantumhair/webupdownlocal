@@ -5,6 +5,12 @@
     <div id="content-container" class="container p-none">
         <div id="al-container" class="side-p">
             <div id="al-control">
+                <h3 class="ad-mh">Summary</h3>
+                    <span class="pull-left">Total URLs UP at last check:
+                        <h2>
+                            Test: {{ rssrecord.totalups }}
+                        </h2>
+                    </span>
                 <h3 class="ad-mh">RSS Feed URL List
                     {# Add RSS Record Link #}
                     <span class="pull-right">
@@ -22,6 +28,8 @@
                 </form>
             </div>
             {# List of Accounts #}
+
+
             <ul id="al-group" class="strip-list">
                 {% for rssrecord in rssrecords %}
                     <li class="al-item">

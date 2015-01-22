@@ -6,9 +6,12 @@ from django.core.urlresolvers import reverse
 from django.http import HttpResponseForbidden
 from django.shortcuts import render
 from django.shortcuts import get_object_or_404
+from django.http import HttpResponse
+from django.template import RequestContext
 
 from .models import Rssrecord
 from .forms import RssRecordsForm
+
 
 class RssRecordList(ListView):
     model = Rssrecord
@@ -78,3 +81,5 @@ def rssrecord_cru(request, uuid=None):
     template = 'rssrecords/rssrecord_cru.html'
 
     return render(request, template, variables)
+
+

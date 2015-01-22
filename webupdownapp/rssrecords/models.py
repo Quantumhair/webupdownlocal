@@ -33,3 +33,6 @@ class Rssrecord(models.Model):
     @models.permalink
     def get_delete_url(self):
         return 'rssrecord_delete', [self.uuid]
+
+    def totalups(self):
+        return "numberup"
