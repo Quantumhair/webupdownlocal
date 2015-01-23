@@ -1,12 +1,9 @@
 import psycopg2
 import feedparser
-import time
-from datetime import date
 from random import randint
 from lxml import html
 import requests
 from datetime import datetime
-from dateutil import parser
 import time
 from BeautifulSoup import BeautifulSoup
 import urllib2
