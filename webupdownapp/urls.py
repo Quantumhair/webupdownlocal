@@ -3,6 +3,9 @@ from django.contrib import admin
 from accounts.views import AccountList
 from accounts.urls import account_urls
 from rssrecords.views import RssRecordList
+from rssrecords.views import RssUpList
+from rssrecords.views import RssDownList
+from rssrecords.views import RssNotCheckedList
 from rssrecords.urls import rssrecords_urls
 
 admin.autodiscover()
@@ -52,6 +55,18 @@ urlpatterns = patterns('',
     ),
     url(r'^rssrecords/list/$',
         RssRecordList.as_view(), name='rssrecords_list'
+    ),
+    url(r'^rssrecords/up/$',
+        RssUpList.as_view(), name='rssup_list'
+    ),
+    url(r'^rssrecords/down/$',
+        RssDownList.as_view(), name='rssdown_list'
+    ),
+    url(r'^rssrecords/notchecked/$',
+        RssNotCheckedList.as_view(), name='rssnotchecked_list'
+    ),
+    url(r'^rssrecords/summary/$',
+    'webupdownapp.rssrecords.views.rssrecord_summary', name='rssrecords_summary'
     ),
     url(r'^rssrecords/(?P<uuid>[\w-]+)/', include(rssrecords_urls)
     ),

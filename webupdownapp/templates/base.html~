@@ -53,7 +53,8 @@
                     <ul class="nav navbar-nav navbar-right">
                         {% if user.is_authenticated %}
                             <li><a href="/logout/">Logout</a></li>
-                            <li><a href="{% url 'account_list' %}" class="p-r-none">Accounts</a></li>
+{#                            <li><a href="{% url 'account_list' %}" class="p-r-none">Accounts</a></li>#}
+			                <li><a href="{% url 'rssrecords_list' %}" class="p-r-none">RSS Feed URLs</a></li>
                         {% else %}
                             <li><a href="/login/">Login</a></li>
                             <li><a href="{% url 'sub_new' %}" class="p-r-none">Sign Up</a></li>

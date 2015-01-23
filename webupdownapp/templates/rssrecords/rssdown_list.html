@@ -7,26 +7,14 @@
         <div id="al-container" class="side-p">
             <div id="al-control">
                 <h3 class="ad-mh">RSS Feed URL List
-                    {# Add RSS Record Link #}
-                    <span class="pull-right">
-                        <a href="{% url 'rssrecord_new' %}"
-                            class="btn btn-link p-r-none">+ Add New RSS URL</a>
-                    </span>
                 </h3>
-                RSS Record Search Form
-                <form action="{% url 'account_list' %}" method="get">
-                    <input id="al-search" type="text"
-                            name="account" value="{{ request.GET.rssrecord }}"
-                        class="form-control" />
-                    <input type="submit"
-                            value="Search" class="btn btn-success" />
-                </form>
             </div>
-            List of Accounts
+            List of DOWN Accounts
 
 
             <ul id="al-group" class="strip-list">
-                {% for rssrecord in rssrecords %}
+            {% if rssdown.count > 0 %}
+                {% for rssrecord in rssdown %}
                     <li class="al-item">
                         <a href="{{ rssrecord.get_absolute_url }}"><h4 class="al-name">{{ rssrecord.name }}</h4></a>
                         <span class="al-created">First uploaded on {{ rssrecord.created_on }}</span>
@@ -38,6 +26,9 @@
 			            <span class="al-url">URL: {{ rssrecord.url }}</span>
                     </li>
                 {% endfor %}
+            {% elif rssdown.count == 0 %}
+                <h3> Good news - No URLs Are DOWN At The Moment!</h3>
+            {% endif %}
             </ul>
             Pagination Section
             {% if is_paginated %}
@@ -45,14 +36,14 @@
                     <ul class="strip-list al-pgnt-list">
                         {% if page_obj.has_previous %}
                             <li class="pull-left">
-                                <a href="{% url 'rssrecords_list' %}?page={{ page_obj.previous_page_number }}
-                                {% if request.GET.rssrecord %}&rssrecord={{ request.GET.rssrecord }}{% endif %}">Prev</a>
+                                <a href="{% url 'rssdown_list' %}?page={{ page_obj.previous_page_number }}
+                                {% if request.GET.rssdown %}&rssdown={{ request.GET.rssdown }}{% endif %}">Prev</a>
                             </li>
                         {% endif %}
                         {% if page_obj.has_next %}
                             <li class="pull-right">
-                                <a href="{% url 'rssrecords_list' %}?page={{ page_obj.next_page_number }}
-                                {% if request.GET.rssrecord %}&rssrecord={{ request.GET.rssrecord }}{% endif %}">Next</a>
+                                <a href="{% url 'rssdown_list' %}?page={{ page_obj.next_page_number }}
+                                {% if request.GET.rssdown %}&rssdown={{ request.GET.rssdown }}{% endif %}">Next</a>
                             </li>
                         {% endif %}
                     </ul>

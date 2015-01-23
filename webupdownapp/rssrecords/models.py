@@ -34,5 +34,3 @@ class Rssrecord(models.Model):
     def get_delete_url(self):
         return 'rssrecord_delete', [self.uuid]
 
-    def totalups(self):
-        return "numberup"
