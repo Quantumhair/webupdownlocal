@@ -1,13 +1,16 @@
-<form id="gi-form"
+{#<form id="gi-form"#}
 {#      action="{% if rssrecord.uuid %}#}
 {#      {{ rssrecord.get_update_url }}{% else %}{% url 'rssrecord_upload' %}{% endif %}"#}
 {#      method="post">#}
-{#    {% csrf_token %}#}
+<form action="{% url 'rssrecord_upload' %}" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
     <div class="row">
         <div class="col-md-9">
             <div><h2>Select File To Upload</h2></div>
-            <p>{{ form.csvFile }}</p>
-            <span>{{ form.csvFile.errors }}</span>
+            <p></p>
+            <p>{{ form.csvfile.label }} {{ form.csvfile.help_text }}</p>
+{#            <p>{{ form.csvfile.errors }}</p>#}
+            <p>{{ form.csvfile }}</p>
         </div>
 
     </div>

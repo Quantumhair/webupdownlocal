@@ -113,7 +113,6 @@ def rssrecord_detail(request, uuid):
 
 @login_required()
 def rssrecord_cru(request, uuid=None):
-    import csv
 
     if uuid:
         rssrecord = get_object_or_404(Rssrecord, uuid=uuid)
@@ -146,25 +145,28 @@ def rssrecord_cru(request, uuid=None):
     return render(request, template, variables)
 
 @login_required()
-def rssrecord_upload(request, uuid=None):
+def rssrecord_upload(request):
     import csv
 
+    rssrecord = Rssrecord(owner=request.user)
+
     if request.POST:
-        form = CsvUploadForm(request.POST)
-        if form.is_valid():
-            rssrecord = form.save(commit=False)
+        form2 = CsvUploadForm(request.POST, request.FILES)
+        if form2.is_valid():
+            rssrecord = form2.save(commit=False)
             rssrecord.owner = request.user
             rssrecord.save()
             redirect_url = reverse(
-                'webupdownapp.rssrecords.views.rssrecord_detail',
+                'webupdownapp.rssrecords.views.rssrecord_summary',
                 args=(rssrecord.uuid,)
             )
             return HttpResponseRedirect(redirect_url)
     else:
-        form = RssRecordsForm()
+        form2 = CsvUploadForm()
 
     variables = {
-        'form': form,
+        'form2': form2,
+        'rssrecord': rssrecord,
     }
 
     template = 'rssrecords/rssrecord_upload.html'
