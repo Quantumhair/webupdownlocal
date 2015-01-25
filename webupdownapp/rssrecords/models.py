@@ -8,7 +8,7 @@ from shortuuidfield import ShortUUIDField
 class Rssrecord(models.Model):
     uuid = ShortUUIDField(unique=True)
     name = models.CharField(max_length=200)
-    url = models.CharField(max_length=250)
+    url = models.URLField(max_length=250)
     desc = models.TextField(blank=True)
     owner = models.ForeignKey(User)
     created_on = models.DateField(auto_now_add=True)

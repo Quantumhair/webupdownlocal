@@ -10,6 +10,7 @@ from django.shortcuts import get_object_or_404
 
 from .models import Rssrecord
 from .forms import RssRecordsForm
+from .forms import CsvUploadForm
 
 
 @login_required()
@@ -122,7 +123,7 @@ def rssrecord_cru(request, uuid=None):
         rssrecord = Rssrecord(owner=request.user)
 
     if request.POST:
-        form = RssRecordsForm(request.POST, instance=rssrecord)
+        form = RssRecordsForm(request.POST)
         if form.is_valid():
             rssrecord = form.save(commit=False)
             rssrecord.owner = request.user
@@ -133,7 +134,7 @@ def rssrecord_cru(request, uuid=None):
             )
             return HttpResponseRedirect(redirect_url)
     else:
-        form = RssRecordsForm(instance=rssrecord)
+        form = RssRecordsForm()
 
     variables = {
         'form': form,
@@ -141,6 +142,32 @@ def rssrecord_cru(request, uuid=None):
     }
 
     template = 'rssrecords/rssrecord_cru.html'
+
+    return render(request, template, variables)
+
+@login_required()
+def rssrecord_upload(request, uuid=None):
+    import csv
+
+    if request.POST:
+        form = CsvUploadForm(request.POST)
+        if form.is_valid():
+            rssrecord = form.save(commit=False)
+            rssrecord.owner = request.user
+            rssrecord.save()
+            redirect_url = reverse(
+                'webupdownapp.rssrecords.views.rssrecord_detail',
+                args=(rssrecord.uuid,)
+            )
+            return HttpResponseRedirect(redirect_url)
+    else:
+        form = RssRecordsForm()
+
+    variables = {
+        'form': form,
+    }
+
+    template = 'rssrecords/rssrecord_upload.html'
 
     return render(request, template, variables)
 

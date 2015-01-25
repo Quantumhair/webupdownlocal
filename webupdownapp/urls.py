@@ -53,6 +53,9 @@ urlpatterns = patterns('',
     url(r'^rssrecords/new/$',
     'webupdownapp.rssrecords.views.rssrecord_cru', name='rssrecord_new'
     ),
+    url(r'^rssrecords/upload/$',
+    'webupdownapp.rssrecords.views.rssrecord_upload', name='rssrecord_upload'
+    ),
     url(r'^rssrecords/list/$',
         RssRecordList.as_view(), name='rssrecords_list'
     ),

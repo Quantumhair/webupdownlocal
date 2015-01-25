@@ -15,3 +15,5 @@ class RssRecordsForm(forms.ModelForm):
                 }
             ),
         }
+class CsvUploadForm(forms.Form):
+    csvFile = forms.FileField(label='Select Your File For Upload')

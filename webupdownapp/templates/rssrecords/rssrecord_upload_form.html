@@ -1,0 +1,16 @@
+<form id="gi-form"
+{#      action="{% if rssrecord.uuid %}#}
+{#      {{ rssrecord.get_update_url }}{% else %}{% url 'rssrecord_upload' %}{% endif %}"#}
+{#      method="post">#}
+{#    {% csrf_token %}#}
+    <div class="row">
+        <div class="col-md-9">
+            <div><h2>Select File To Upload</h2></div>
+            <p>{{ form.csvFile }}</p>
+            <span>{{ form.csvFile.errors }}</span>
+        </div>
+
+    </div>
+    <input id="gi-form-submit" class="btn btn-primary" type="submit" value="UPLOAD">
+    <p>{{ form.non_field_errors }}</p>
+</form>
