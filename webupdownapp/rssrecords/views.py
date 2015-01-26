@@ -146,19 +146,22 @@ def rssrecord_cru(request, uuid=None):
 
 @login_required()
 def rssrecord_upload(request):
-    import csv
 
     rssrecord = Rssrecord(owner=request.user)
 
     if request.POST:
         form2 = CsvUploadForm(request.POST, request.FILES)
         if form2.is_valid():
-            rssrecord = form2.save(commit=False)
-            rssrecord.owner = request.user
-            rssrecord.save()
+
+            thefile = request.FILES['uploadfile'].readlines()
+
+            for row in thefile:
+                rssrecord.url = row.rstrip()
+                rssrecord.owner = request.user
+                rssrecord.save()
+
             redirect_url = reverse(
-                'webupdownapp.rssrecords.views.rssrecord_summary',
-                args=(rssrecord.uuid,)
+                'webupdownapp.rssrecords.views.rssrecord_summary'
             )
             return HttpResponseRedirect(redirect_url)
     else:
