@@ -35,11 +35,8 @@ def AllUpdate():
 def TwitterUpdate():
 
     conn = None
-    holder = []
-    dates = []
     x = 0
     format = None
-    datecounter = 0
     todaysdate = datetime.now().timetuple()
     print todaysdate
     soup = None
@@ -55,15 +52,15 @@ def TwitterUpdate():
 
     print "\nShow me the filtered Twitter URLs from the database:\n"
     for row in rows:
-        print "  ", row[0]
+        print "  ", row[0], "with uuid: ", row[1]
     print "\n"
 
-    for row in rows:   #reads in a row at a time and appends it to holder list
-        holder.append(row)
+    # for row in rows:   #reads in a row at a time and appends it to holder list
+    #     holder.append(row)
 
 
 
-    for item in holder:
+    for row in rows:
         try:
 
             headers = {'User-Agent': 'Mozilla/5 (Solaris 10) Gecko'}
@@ -73,22 +70,27 @@ def TwitterUpdate():
             # soup = BeautifulSoup(page_content)
             # print soup
 
-            print str(item[0]).strip('[\'\']')
-            req = urllib2.Request(str(item[0]).strip('[\'\']'), headers=headers)
+            print "requesting: ", str(row[0]).strip('[\'\']')
+            req = urllib2.Request(str(row[0]).strip('[\'\']'), headers=headers)
             page = urllib2.urlopen(req)
             soup = BeautifulSoup(page)
             soup.prettify()
 
+            datecounter = 0
+            dates = []
+
             for span in soup.findAll("span"):
 
                 for date in span.findAll("a", href=re.compile("status")):
+
                     while datecounter < 1:
                         try:
                             #print "trying to come up with something"
                             #print date['title']
                             dates.append(date['title'])
                             datecounter += 1
-                            print dates[0]
+                            print "datecounter= ", datecounter
+                            print "found update at: ", dates[0]
                         except:
                             print "nothing found or code is WRONG"
 
@@ -104,25 +106,25 @@ def TwitterUpdate():
                     print "RSS feed was last updated today"
 
                 else:
-                    print "RSS feed was last updated ",round(difference/86400, 1),"days ago""\n"  #takes difference in seconds and divides by
+                    print "RSS feed was last updated ",round(difference/86400, 1),"days ago"  #takes difference in seconds and divides by
                     #24 hours x 60 minutes x 60 seconds = 86,400 seconds to give days difference. Rounds to first decimal place for
                     #ease of reading
 
             except:
-                print str(row).strip('[\'\']'),": Cannot find date RSS was last updated. Feed or source may be down!""\n"  #if
+                print str(row).strip('[\'\']'),": Cannot find date RSS was last updated. Feed or source may be down!"  #if
                 #there is an error above it means that there is no rss feed available at that url. In that case the site is
                 #likely down
 
             try:
                 id = row[1]
                 cur.execute("""UPDATE rssrecords_rssrecord SET upordown = 'UP', last_checked = CURRENT_TIMESTAMP WHERE uuid = %s""", (id,))
-                print "successfully updated database\n"
+                print "successfully updated database for url & uuid: ", row[0], " ", row[1], "\n"
                 conn.commit()
             except:
                 print "unable to execute update to database\n"
 
         except:
-            print str(row[0]),": Cannot find date RSS was last updated. Feed or source may be down!"
+            print str(row[0]),": Cannot find date RSS was last updated. Feed or source may be down!\n"
             try:
                 id = row[1]
                 cur.execute("""UPDATE rssrecords_rssrecord SET upordown = 'DOWN', last_checked = CURRENT_TIMESTAMP WHERE uuid = %s""", (id,))
@@ -135,7 +137,6 @@ def TwitterUpdate():
 
 def GooglePlusUpdate():
     conn = None
-    holder = []
     x = 0
     format = None
     todaysdate = datetime.now().timetuple()
@@ -155,19 +156,19 @@ def GooglePlusUpdate():
         print "  ", row[0]
     print "\n"
 
-    for row in rows:   #reads in a row at a time and appends it to holder list
-        holder.append(row)
-        #print"this is item #:", x, " - ", row[0]
-        ++x
+    # for row in rows:   #reads in a row at a time and appends it to holder list
+    #     holder.append(row)
+    #     #print"this is item #:", x, " - ", row[0]
+    #     ++x
 
 
 
-    for item in holder:
+    for row in rows:
         try:
 
             headers = {'User-Agent':'Mozilla/5 (Solaris 10) Gecko'}
 
-            page = requests.get(str(item[0]).strip('[\'\']'), headers = headers)
+            page = requests.get(str(row[0]).strip('[\'\']'), headers = headers)
             tree = html.fromstring(page.text)
 
             dates = tree.xpath('//a[@class="o-U-s FI Rg"]/text()')
@@ -230,7 +231,7 @@ def RssUpdate():
 
     cur = conn.cursor()
     cur.execute("""SELECT url,uuid FROM rssrecords_rssrecord WHERE url LIKE '%/feed%' OR url LIKE '%/rss%'
-        OR url LIKE '%uploads?orderby' OR url LIKE '%.xml%' OR url LIKE '%format=atom%'""")
+        OR url LIKE '%uploads?orderby' OR url LIKE '%.xml%' OR url LIKE '%format=atom%' or url like '%feedburner%'""")
     rows = cur.fetchall()
 
     print "\nShow me the filtered RSS URLs from the database:\n"
