@@ -9,21 +9,38 @@
                <h3 class="ad-mh">Summary</h3>
                 <div>
                 <span class="pull-left">
+                        <h3>
+                            <p><a href="{% url 'rssdown_list' %}">Total Number Of URLs DOWN At Last Check: {{ totaldown }}</a></p>
+                        </h3>
+                    <br>
                         <h4>
                             <p><a href="{% url 'rssrecords_list' %}">Total Number Of URLs In Account: {{ total }}</a></p>
                             <p><a href="{% url 'rssup_list' %}">Total Number Of URLs UP At Last Check: {{ totalup}}</a></p>
-                            <p><a href="{% url 'rssdown_list' %}">Total Number Of URLs DOWN At Last Check: {{ totaldown }}</a></p>
                             <p><a href="{% url 'rssnotchecked_list' %}">Total URLs Not Yet Checked: {{ totalnotchecked }}</a></p>
 
                         </h4>
+                                                   <div>
+            <h3>
+                Instructions
+            </h3>
+            <p>Use the <a href="{% url 'rssrecord_upload' %}" class="p-r-none">Upload URLs</a> page
+                to upload a text file with URLs you want to track. The file
+                needs to have each URL on it's own line, like this:</p>
+            <br>
+            <p>http://url1.com/feed<br>
+            http://url2.com/feed<br>
+            https://url3.com/rss</p>
+            </div>
                     </span>
+
                     </div>
+
                     {# Add RSS Record Link #}
-                    <span class="pull-right">
-                        <a href="{% url 'rssrecord_new' %}"
-                            class="btn btn-link p-r-none">+ Add New RSS URL</a>
-                    </span>
-                </h3>
+{#                    <span class="pull-right">#}
+{#                        <a href="{% url 'rssrecord_new' %}"#}
+{#                            class="btn btn-link p-r-none">+ Add New RSS URL</a>#}
+{#                    </span>#}
+
 
             </div>
 
