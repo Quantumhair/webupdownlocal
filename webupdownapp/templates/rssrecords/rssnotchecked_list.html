@@ -16,14 +16,15 @@
             {% if rssnotchecked.count > 0 %}
                 {% for rssrecord in rssnotchecked %}
                     <li class="al-item">
-                        <a href="{{ rssrecord.get_absolute_url }}"><h4 class="al-name">{{ rssrecord.name }}</h4></a>
+                        <span class="al-url">URL: {{ rssrecord.url }}</span><br>
+{#                        <a href="{{ rssrecord.get_absolute_url }}"><h4 class="al-name">{{ rssrecord.name }}</h4></a>#}
                         <span class="al-created">First uploaded on {{ rssrecord.created_on }}</span>
                         <br>
                         <span class="al-created">Last checked on {{ rssrecord.last_checked }} GMT</span>
                         <br>
                         <span class="al-created">Site was: {{ rssrecord.upordown }}</span>
                         <br>
-			            <span class="al-url">URL: {{ rssrecord.url }}</span>
+
                     </li>
                 {% endfor %}
             {% elif rssnotchecked.count == 0 %}
