@@ -8,6 +8,7 @@ import time
 from BeautifulSoup import BeautifulSoup
 import urllib2
 import re
+import sys
 
 
 def AllUpdate():
@@ -47,7 +48,7 @@ def TwitterUpdate():
         print "I am unable to connect to the database\n"
 
     cur = conn.cursor()
-    cur.execute("""SELECT url,uuid FROM rssrecords_rssrecord WHERE url LIKE '%twitter.com/%'""")
+    cur.execute("""SELECT url,uuid FROM rssrecords_rssrecord WHERE url LIKE '%twitter.com%'""")
     rows = cur.fetchall()
 
     print "\nShow me the filtered Twitter URLs from the database:\n"
@@ -111,27 +112,30 @@ def TwitterUpdate():
                     #ease of reading
 
             except:
-                print str(row).strip('[\'\']'),": Cannot find date RSS was last updated. Feed or source may be down!"  #if
+                print str(row).strip('[\'\']'),": Cannot find date RSS was last updated. Feed or source may be down! Error 1"  #if
                 #there is an error above it means that there is no rss feed available at that url. In that case the site is
                 #likely down
 
             try:
+                timesinceupdate = int(round(difference/86400))
                 id = row[1]
-                cur.execute("""UPDATE rssrecords_rssrecord SET upordown = 'UP', last_checked = CURRENT_TIMESTAMP WHERE uuid = %s""", (id,))
+                cur.execute("""UPDATE rssrecords_rssrecord SET upordown = 'UP', last_checked = CURRENT_TIMESTAMP, dayssinceupdate = %s WHERE uuid = %s""", (timesinceupdate,id,))
                 print "successfully updated database for url & uuid: ", row[0], " ", row[1], "\n"
                 conn.commit()
             except:
-                print "unable to execute update to database\n"
+                print "unable to execute update to database Error 2\n"
+                e = sys.exc_info()[0]
+                print "Error: %s" %e
 
         except:
-            print str(row[0]),": Cannot find date RSS was last updated. Feed or source may be down!\n"
+            print str(row[0]),": Cannot find date RSS was last updated. Feed or source may be down! Error 3\n"
             try:
                 id = row[1]
                 cur.execute("""UPDATE rssrecords_rssrecord SET upordown = 'DOWN', last_checked = CURRENT_TIMESTAMP WHERE uuid = %s""", (id,))
                 print "successfully updated database\n"
                 conn.commit()
             except:
-                print "unable to execute update to database\n"
+                print "unable to execute update to database Error 4\n"
 
     conn.close()
 
@@ -198,8 +202,9 @@ def GooglePlusUpdate():
                 #likely down
 
             try:
+                timesinceupdate = int(round(difference/86400))
                 id = row[1]
-                cur.execute("""UPDATE rssrecords_rssrecord SET upordown = 'UP', last_checked = CURRENT_TIMESTAMP WHERE uuid = %s""", (id,))
+                cur.execute("""UPDATE rssrecords_rssrecord SET upordown = 'UP', last_checked = CURRENT_TIMESTAMP, dayssinceupdate = %s WHERE uuid = %s""", (timesinceupdate,id,))
                 print "successfully updated database\n"
                 conn.commit()
             except:
@@ -273,8 +278,9 @@ def RssUpdate():
                 #likely down
 
             try:
+                timesinceupdate = int(round(difference/86400))
                 id = row[1]
-                cur.execute("""UPDATE rssrecords_rssrecord SET upordown = 'UP', last_checked = CURRENT_TIMESTAMP WHERE uuid = %s""", (id,))
+                cur.execute("""UPDATE rssrecords_rssrecord SET upordown = 'UP', last_checked = CURRENT_TIMESTAMP, dayssinceupdate = %s WHERE uuid = %s""", (timesinceupdate,id,))
                 print "successfully updated database\n"
                 conn.commit()
             except:
