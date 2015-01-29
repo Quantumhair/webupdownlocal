@@ -15,7 +15,7 @@ class Rssrecord(models.Model):
     last_checked = models.DateField(auto_now=True, default=date(1970,01,01))
     upordown = models.CharField(max_length=15, default='not yet checked')
     dayssinceupdate = models.IntegerField(default=0)
-    group = models.CharField(max_length=100)
+    group = models.CharField(max_length=100, default='No Group')
 
     class Meta:
         verbose_name_plural = 'rssrecords'
