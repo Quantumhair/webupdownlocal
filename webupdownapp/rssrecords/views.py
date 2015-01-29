@@ -155,10 +155,12 @@ def rssrecord_upload(request):
         if form2.is_valid():
 
             thefile = request.FILES['uploadfile']
+            l = [l for l in thefile.readlines() if l.strip()]
 
-            for line in thefile:
+
+            for line in l:
                 rssrecord = Rssrecord(owner=request.user)
-                rssrecord.url = line.rstrip('\n')
+                rssrecord.url = line.strip('\n')
                 rssrecord.owner = request.user
                 rssrecord.save()
                 print "saved to DB with id: ", rssrecord.id

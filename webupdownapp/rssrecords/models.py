@@ -14,12 +14,14 @@ class Rssrecord(models.Model):
     created_on = models.DateField(auto_now_add=True)
     last_checked = models.DateField(auto_now=True, default=date(1970,01,01))
     upordown = models.CharField(max_length=15, default='not yet checked')
+    dayssinceupdate = models.IntegerField(default=0)
+    group = models.CharField(max_length=100)
 
     class Meta:
         verbose_name_plural = 'rssrecords'
 
     def __unicode__(self):
-        return u"%s" % self.name
+        return u"%s" % self.url
 
     @models.permalink
     def get_absolute_url(self):

@@ -169,12 +169,14 @@ def GooglePlusUpdate():
             headers = {'User-Agent':'Mozilla/5 (Solaris 10) Gecko'}
 
             page = requests.get(str(row[0]).strip('[\'\']'), headers = headers)
+            print "page request returned with status: ", page.status_code
+
             tree = html.fromstring(page.text)
 
             dates = tree.xpath('//a[@class="o-U-s FI Rg"]/text()')
 
             print dates[0]
-            time.sleep(randint(1,3)) # random wait period to slow down IP blocking
+            time.sleep(randint(5,10)) # random wait period to slow down IP blocking
 
             try:
 
@@ -191,7 +193,7 @@ def GooglePlusUpdate():
                     #ease of reading
 
             except:
-                print str(row).strip('[\'\']'),": Cannot find date RSS was last updated. Feed or source may be down!""\n"  #if
+                print str(row).strip('[\'\']'),": Cannot find date RSS was last updated. Feed or source may be down! Error 1""\n"  #if
                 #there is an error above it means that there is no rss feed available at that url. In that case the site is
                 #likely down
 
@@ -201,17 +203,17 @@ def GooglePlusUpdate():
                 print "successfully updated database\n"
                 conn.commit()
             except:
-                print "unable to execute update to database\n"
+                print "unable to execute update to database Error 2\n"
 
         except:
-            print str(row[0]),": Cannot find date RSS was last updated. Feed or source may be down!"
+            print str(row[0]),": Cannot find date RSS was last updated. Feed or source may be down! Error 3"
             try:
                 id = row[1]
                 cur.execute("""UPDATE rssrecords_rssrecord SET upordown = 'DOWN', last_checked = CURRENT_TIMESTAMP WHERE uuid = %s""", (id,))
                 print "successfully updated database\n"
                 conn.commit()
             except:
-                print "unable to execute update to database\n"
+                print "unable to execute update to database Error 4\n"
 
     conn.close()
 
@@ -231,7 +233,7 @@ def RssUpdate():
 
     cur = conn.cursor()
     cur.execute("""SELECT url,uuid FROM rssrecords_rssrecord WHERE url LIKE '%/feed%' OR url LIKE '%/rss%'
-        OR url LIKE '%uploads?orderby' OR url LIKE '%.xml%' OR url LIKE '%format=atom%' or url like '%feedburner%'""")
+        OR url LIKE '%uploads?orderby' OR url LIKE '%.xml%' OR url LIKE '%format=atom%' OR url like '%feedburner%' OR url LIKE '%.rss%'""")
     rows = cur.fetchall()
 
     print "\nShow me the filtered RSS URLs from the database:\n"
