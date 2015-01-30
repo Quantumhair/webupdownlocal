@@ -12,6 +12,7 @@ import sys
 
 
 def AllUpdate():
+    start_time = datetime.now()
     try:
         TwitterUpdate()
         print "\nWaiting between checks\n"
@@ -31,6 +32,9 @@ def AllUpdate():
         print "\nUpdates Complete\n"
     except:
         print "could not perform Twitter updates"
+    end_time = datetime.now()
+    update_length = end_time - start_time
+    print "Done with updates, total time elapsed: ", update_length
 
 
 def TwitterUpdate():

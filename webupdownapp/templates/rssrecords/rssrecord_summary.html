@@ -17,9 +17,12 @@
                             <p><a href="{% url 'rssrecords_list' %}">Total Number Of URLs In Account: {{ total }}</a></p>
                             <p><a href="{% url 'rssup_list' %}">Total Number Of URLs UP At Last Check: {{ totalup}}</a></p>
                             <p><a href="{% url 'rssnotchecked_list' %}">Total URLs Not Yet Checked: {{ totalnotchecked }}</a></p>
-
+                            <br>
+                            <p><a href="{% url 'rss_seven_days.html' %}">Total URLs updated in the last 7 days: {{ seven_days_or_less }}</a></p>
+                            <p><a href="{% url 'rss_seven_to_fourteen.html' %}">Total URLs updated Between 7 And 14 days: {{ seven_days_to_fourteen_days }}</a></p>
+                            <p><a href="{% url 'rss_over_fourteen.html' %}">Total URLs updated More Than 14 days ago: {{ over_fourteen_days }}</a></p>
                         </h4>
-                                                   <div>
+                    <div>
             <h3>
                 Instructions
             </h3>

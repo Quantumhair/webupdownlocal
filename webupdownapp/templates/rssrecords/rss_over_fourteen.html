@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+{% block title %}RSS Feed URL List{% endblock title %}
+
+
+{% block content %}
+    <div id="content-container" class="container p-none">
+        <div id="al-container" class="side-p">
+            <div id="al-control">
+                <h3 class="ad-mh">RSS Feed URL List
+                </h3>
+            </div>
+            List of URLs Updated Over 14 Days Ago
+
+
+            <ul id="al-group" class="strip-list">
+            {% if rss_over_fourteen.count > 0 %}
+                {% for rssrecord in rss_over_fourteen %}
+                    <li class="al-item">
+                        <span class="al-url">URL: {{ rssrecord.url }}</span><br>
+{#                        <a href="{{ rssrecord.get_absolute_url }}"><h4 class="al-name">{{ rssrecord.name }}</h4></a>#}
+{#                        <span class="al-created">First uploaded on {{ rssrecord.created_on }}</span>#}
+{#                        <br>#}
+                        <span class="al-created"><strong>Site Last Updated {{ rssrecord.dayssinceupdate }} Days Ago</strong></span>
+                        <br>
+{#                        <span class="al-created">Site was: {{ rssrecord.upordown }}</span>#}
+{#                        <br>#}
+
+                    </li>
+                {% endfor %}
+            {% elif rss_over_fourteen.count == 0 %}
+                <h3> No URLs Have Been Updated More Than 14 Days Ago!</h3>
+            {% endif %}
+            </ul>
+            Pagination Section
+            {% if is_paginated %}
+                <div id="al-paginate">
+                    <ul class="strip-list al-pgnt-list">
+                        {% if page_obj.has_previous %}
+                            <li class="pull-left">
+                                <a href="{% url 'rssdown_list' %}?page={{ page_obj.previous_page_number }}
+                                {% if request.GET.rssdown %}&rssdown={{ request.GET.rssdown }}{% endif %}">Prev</a>
+                            </li>
+                        {% endif %}
+                        {% if page_obj.has_next %}
+                            <li class="pull-right">
+                                <a href="{% url 'rssdown_list' %}?page={{ page_obj.next_page_number }}
+                                {% if request.GET.rssdown %}&rssdown={{ request.GET.rssdown }}{% endif %}">Next</a>
+                            </li>
+                        {% endif %}
+                    </ul>
+                </div>
+{% endif %}
+        </div>
+    </div>
+{% endblock content %}

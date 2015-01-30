@@ -7,6 +7,9 @@ from rssrecords.views import RssUpList
 from rssrecords.views import RssDownList
 from rssrecords.views import RssNotCheckedList
 from rssrecords.urls import rssrecords_urls
+from rssrecords.views import Rss_Seven_Days
+from rssrecords.views import Rss_Seven_To_Fourteen
+from rssrecords.views import Rss_Over_Fourteen
 
 admin.autodiscover()
 
@@ -64,6 +67,15 @@ urlpatterns = patterns('',
     ),
     url(r'^rssrecords/down/$',
         RssDownList.as_view(), name='rssdown_list'
+    ),
+    url(r'^rssrecords/sevendays/$',
+        Rss_Seven_Days.as_view(), name='rss_seven_days.html'
+    ),
+    url(r'^rssrecords/seventofourteen/$',
+        Rss_Seven_To_Fourteen.as_view(), name='rss_seven_to_fourteen.html'
+    ),
+    url(r'^rssrecords/overfourteen/$',
+        Rss_Over_Fourteen.as_view(), name='rss_over_fourteen.html'
     ),
     url(r'^rssrecords/notchecked/$',
         RssNotCheckedList.as_view(), name='rssnotchecked_list'

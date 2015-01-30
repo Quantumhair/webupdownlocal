@@ -21,7 +21,21 @@ def rssrecord_summary(request):
     totaldown = Rssrecord.objects.filter(owner=request.user, upordown='DOWN').count()
     totalnotchecked = Rssrecord.objects.filter(owner=request.user, upordown='not yet checked').count()
 
-    return render(request, 'rssrecords/rssrecord_summary.html', {'totalup': totalup, 'total': total, 'totaldown':totaldown, 'totalnotchecked': totalnotchecked })
+    seven_days_or_less = Rssrecord.objects.filter(owner=request.user, dayssinceupdate__lte=7).count()
+    seven_days_to_fourteen_days = Rssrecord.objects.filter(owner=request.user, dayssinceupdate__gt=7,
+                                                           dayssinceupdate__lte=14).count()
+
+    over_fourteen_days = Rssrecord.objects.filter(owner=request.user, dayssinceupdate__gt=14).count()
+
+    return render(request, 'rssrecords/rssrecord_summary.html', {'totalup': totalup,
+                                                                 'total': total,
+                                                                 'totaldown':totaldown,
+                                                                 'totalnotchecked': totalnotchecked,
+                                                                 'seven_days_or_less': seven_days_or_less,
+                                                                 'seven_days_to_fourteen_days': seven_days_to_fourteen_days,
+                                                                 'over_fourteen_days': over_fourteen_days,
+                                                                }
+                                                            )
 
 
 
@@ -183,5 +197,55 @@ def rssrecord_upload(request):
 
     return render(request, template, variables)
 
+class Rss_Seven_Days(ListView):
 
+    model = Rssrecord
+    #paginate_by = 10
+    template_name = 'rssrecords/rss_seven_days.html'
+    context_object_name = 'rss_seven_days'
+
+    def get_queryset(self):
+
+        seven_days_or_less_list = Rssrecord.objects.filter(owner=self.request.user,
+                                                           dayssinceupdate__lte=7).order_by('dayssinceupdate')
+        return seven_days_or_less_list
+
+    @method_decorator(login_required)
+    def dispatch(self, *args, **kwargs):
+        return super(Rss_Seven_Days, self).dispatch(*args, **kwargs)
+
+class Rss_Seven_To_Fourteen(ListView):
+
+    model = Rssrecord
+    #paginate_by = 10
+    template_name = 'rssrecords/rss_seven_to_fourteen.html'
+    context_object_name = 'rss_seven_to_fourteen'
+
+    def get_queryset(self):
+
+        seven_to_fourteen_list = Rssrecord.objects.filter(owner=self.request.user,
+                                                           dayssinceupdate__gt=7,
+                                                           dayssinceupdate__lte=14).order_by('dayssinceupdate')
+        return seven_to_fourteen_list
+
+    @method_decorator(login_required)
+    def dispatch(self, *args, **kwargs):
+        return super(Rss_Seven_To_Fourteen, self).dispatch(*args, **kwargs)
+
+class Rss_Over_Fourteen(ListView):
+
+    model = Rssrecord
+    #paginate_by = 10
+    template_name = 'rssrecords/rss_over_fourteen.html'
+    context_object_name = 'rss_over_fourteen'
+
+    def get_queryset(self):
+
+        over_fourteen_list = Rssrecord.objects.filter(owner=self.request.user,
+                                                           dayssinceupdate__gt=14,).order_by('dayssinceupdate')
+        return over_fourteen_list
+
+    @method_decorator(login_required)
+    def dispatch(self, *args, **kwargs):
+        return super(Rss_Over_Fourteen, self).dispatch(*args, **kwargs)
 
