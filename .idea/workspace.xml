@@ -2,10 +2,130 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="342dc52a-1ade-43c9-95d2-33b2e5c220f7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_summary.html" afterPath="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py" afterPath="$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webupdownapp/urls.py" afterPath="$PROJECT_DIR$/webupdownapp/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webupdownapp/rssrecords/views.py" afterPath="$PROJECT_DIR$/webupdownapp/rssrecords/views.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip-6.0.3.dist-info/DESCRIPTION.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip-6.0.3.dist-info/METADATA" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip-6.0.3.dist-info/RECORD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip-6.0.3.dist-info/WHEEL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip-6.0.3.dist-info/entry_points.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip-6.0.3.dist-info/metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip-6.0.3.dist-info/top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/pkg_resources.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools-8.2.1.dist-info/DESCRIPTION.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools-8.2.1.dist-info/METADATA" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools-8.2.1.dist-info/RECORD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools-8.2.1.dist-info/WHEEL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools-8.2.1.dist-info/dependency_links.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools-8.2.1.dist-info/entry_points.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools-8.2.1.dist-info/metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools-8.2.1.dist-info/top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools-8.2.1.dist-info/zip-safe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/_vendor/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/_vendor/packaging/__about__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/_vendor/packaging/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/_vendor/packaging/_compat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/_vendor/packaging/_structures.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/_vendor/packaging/specifiers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/_vendor/packaging/version.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/svn_utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/tests/test_resources.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/tests/test_svn.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/_billiard.so" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/_billiard.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/psycopg2/_psycopg.so" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/psycopg2/_psycopg.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/local/bin" afterPath="$PROJECT_DIR$/venv/local/bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/local/include" afterPath="$PROJECT_DIR$/venv/local/include" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/local/lib" afterPath="$PROJECT_DIR$/venv/local/lib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/Django-1.7.1.dist-info/RECORD" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/Django-1.7.1.dist-info/RECORD" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/gunicorn-19.1.1.dist-info/RECORD" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/gunicorn-19.1.1.dist-info/RECORD" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz-2014.10.dist-info/RECORD" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz-2014.10.dist-info/RECORD" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/packaging/__about__.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/packaging/__about__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/__init__.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/__init__.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/colorama/__init__.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/colorama/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/__init__.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/__init__.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/tests/__init__.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/tests/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/bin/activate.csh" afterPath="$PROJECT_DIR$/venv/bin/activate.csh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/bin/activate.fish" afterPath="$PROJECT_DIR$/venv/bin/activate.fish" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/bin/activate" afterPath="$PROJECT_DIR$/venv/bin/activate" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/colorama/ansi.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/colorama/ansi.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/colorama/ansitowin32.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/colorama/ansitowin32.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/archive_util.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/archive_util.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/auth.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/auth.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/basecommand.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/basecommand.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/utils/build.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/utils/build.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/build_ext.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/build_ext.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/compat.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/compat.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/controller.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/controller.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/dist.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/dist.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/bin/django-admin.py" afterPath="$PROJECT_DIR$/venv/bin/django-admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/bin/django-admin" afterPath="$PROJECT_DIR$/venv/bin/django-admin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/download.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/download.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/bin/easy_install-2.7" afterPath="$PROJECT_DIR$/venv/bin/easy_install-2.7" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/easy_install.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/easy_install.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/bin/easy_install" afterPath="$PROJECT_DIR$/venv/bin/easy_install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/egg_info.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/egg_info.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/tests/environment.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/tests/environment.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/bin/gunicorn" afterPath="$PROJECT_DIR$/venv/bin/gunicorn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/bin/gunicorn_django" afterPath="$PROJECT_DIR$/venv/bin/gunicorn_django" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/bin/gunicorn_paster" afterPath="$PROJECT_DIR$/venv/bin/gunicorn_paster" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/heuristics.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/heuristics.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/index.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/index.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/install_scripts.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/install_scripts.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/anyjson-0.3.3-py2.7.egg-info/installed-files.txt" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/anyjson-0.3.3-py2.7.egg-info/installed-files.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/billiard-3.3.0.19-py2.7.egg-info/installed-files.txt" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/billiard-3.3.0.19-py2.7.egg-info/installed-files.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/dj_static-0.0.6-py2.7.egg-info/installed-files.txt" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/dj_static-0.0.6-py2.7.egg-info/installed-files.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django_shortuuidfield-0.1.2-py2.7.egg-info/installed-files.txt" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django_shortuuidfield-0.1.2-py2.7.egg-info/installed-files.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django_toolbelt-0.0.1-py2.7.egg-info/installed-files.txt" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django_toolbelt-0.0.1-py2.7.egg-info/installed-files.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/feedparser-5.1.3-py2.7.egg-info/installed-files.txt" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/feedparser-5.1.3-py2.7.egg-info/installed-files.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/psycopg2-2.5.4-py2.7.egg-info/installed-files.txt" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/psycopg2-2.5.4-py2.7.egg-info/installed-files.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests-0.13.2-py2.7.egg-info/installed-files.txt" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/requests-0.13.2-py2.7.egg-info/installed-files.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/shortuuid-0.4.2-py2.7.egg-info/installed-files.txt" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/shortuuid-0.4.2-py2.7.egg-info/installed-files.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/static3-0.5.1-py2.7.egg-info/installed-files.txt" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/static3-0.5.1-py2.7.egg-info/installed-files.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/stripe-1.19.1-py2.7.egg-info/installed-files.txt" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/stripe-1.19.1-py2.7.egg-info/installed-files.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/models.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webupdownapp/rssrecords/models.py" afterPath="$PROJECT_DIR$/webupdownapp/rssrecords/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/msvc9_support.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/msvc9_support.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/utils/outdated.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/utils/outdated.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/package_index.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/package_index.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" afterPath="$PROJECT_DIR$/venv/pip-selfcheck.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/bin/pip2.7" afterPath="$PROJECT_DIR$/venv/bin/pip2.7" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/bin/pip2" afterPath="$PROJECT_DIR$/venv/bin/pip2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/bin/pip" afterPath="$PROJECT_DIR$/venv/bin/pip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/tests/py26compat.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/tests/py26compat.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/req/req_install.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/req/req_install.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/req/req_set.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/req/req_set.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/sandbox.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/sandbox.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/sdist.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/sdist.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/serialize.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/serialize.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/tests/server.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/tests/server.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/six.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/six.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/packaging/specifiers.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/packaging/specifiers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/bin/static" afterPath="$PROJECT_DIR$/venv/bin/static" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/test.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/tests/test_bdist_egg.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/tests/test_bdist_egg.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/tests/test_build_ext.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/tests/test_build_ext.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/tests/test_develop.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/tests/test_develop.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/tests/test_dist_info.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/tests/test_dist_info.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/tests/test_easy_install.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/tests/test_easy_install.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/tests/test_egg_info.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/tests/test_egg_info.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/tests/test_find_packages.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/tests/test_find_packages.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/tests/test_integration.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/tests/test_integration.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/tests/test_markerlib.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/tests/test_markerlib.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/tests/test_msvc9compiler.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/tests/test_msvc9compiler.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/tests/test_packageindex.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/tests/test_packageindex.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/tests/test_sandbox.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/tests/test_sandbox.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/tests/test_sdist.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/tests/test_sdist.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/tests/test_test.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/tests/test_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/tests/test_upload_docs.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/tests/test_upload_docs.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/utils/ui.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/utils/ui.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/upload_docs.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/upload_docs.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/utils.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/packaging/version.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/packaging/version.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/version.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/version.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/commands/wheel.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/commands/wheel.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/colorama/win32.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/colorama/win32.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/colorama/winterm.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/colorama/winterm.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="webupdownLOCAL.iws" />
@@ -41,11 +161,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5403377" vertical-offset="0" max-vertical-offset="774">
+              <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -56,24 +176,22 @@
       <file leaf-file-name="tasks.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="7236">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            <state vertical-scroll-proportion="-7.84" vertical-offset="2666" max-vertical-offset="7236">
+              <caret line="159" column="25" selection-start-line="159" selection-start-column="25" selection-end-line="159" selection-end-column="25" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1422560977911" expanded="true" signature="1249:1321" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-                <marker date="1422560977911" expanded="true" signature="4122:4238" placeholder="UPDATE rssre..." />
-                <marker date="1422560977911" expanded="true" signature="4122:4239" placeholder="UPDATE rssre..." />
-                <marker date="1422560977911" expanded="true" signature="4366:4764" placeholder="UPDATE rssre..." />
-                <marker date="1422560977911" expanded="true" signature="4767:4864" placeholder="UPDATE rssre..." />
-                <marker date="1422560977911" expanded="true" signature="5447:5519" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-                <marker date="1422560977911" expanded="true" signature="7523:7640" placeholder="UPDATE rssre..." />
-                <marker date="1422560977911" expanded="true" signature="8049:8146" placeholder="UPDATE rssre..." />
-                <marker date="1422560977911" expanded="true" signature="8742:8965" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-                <marker date="1422560977911" expanded="true" signature="11024:11141" placeholder="UPDATE rssre..." />
-                <marker date="1422560977911" expanded="true" signature="11534:11631" placeholder="UPDATE rssre..." />
-                <marker date="1422560977911" expanded="true" signature="12359:12400" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-                <marker date="1422560977911" expanded="true" signature="14766:14861" placeholder="UPDATE rssre..." />
-                <marker date="1422560977911" expanded="true" signature="15593:15690" placeholder="UPDATE rssre..." />
+                <marker date="1422888035468" expanded="true" signature="1249:1321" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+                <marker date="1422888035468" expanded="true" signature="4122:4239" placeholder="UPDATE rssre..." />
+                <marker date="1422888035468" expanded="true" signature="4767:4864" placeholder="UPDATE rssre..." />
+                <marker date="1422888035468" expanded="true" signature="5447:5519" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+                <marker date="1422888035468" expanded="true" signature="7523:7640" placeholder="UPDATE rssre..." />
+                <marker date="1422888035468" expanded="true" signature="8049:8146" placeholder="UPDATE rssre..." />
+                <marker date="1422888035468" expanded="true" signature="8742:8965" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+                <marker date="1422888035468" expanded="true" signature="11024:11141" placeholder="UPDATE rssre..." />
+                <marker date="1422888035468" expanded="true" signature="11534:11631" placeholder="UPDATE rssre..." />
+                <marker date="1422888035468" expanded="true" signature="12359:12400" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+                <marker date="1422888035468" expanded="true" signature="14766:14861" placeholder="UPDATE rssre..." />
+                <marker date="1422888035468" expanded="true" signature="15593:15690" placeholder="UPDATE rssre..." />
               </folding>
             </state>
           </provider>
@@ -94,18 +212,18 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4410">
+            <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="4410">
               <caret line="27" column="101" selection-start-line="27" selection-start-column="101" selection-end-line="27" selection-end-column="101" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rss_over_fourteen.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="rss_over_fourteen.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rss_over_fourteen.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49113232" vertical-offset="162" max-vertical-offset="1098">
-              <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+            <state vertical-scroll-proportion="-13.0" vertical-offset="567" max-vertical-offset="1098">
+              <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -114,7 +232,7 @@
       <file leaf-file-name="rss_seven_to_fourteen.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rss_seven_to_fourteen.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="1098">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="540" max-vertical-offset="1098">
               <caret line="30" column="66" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
               <folding />
             </state>
@@ -124,7 +242,7 @@
       <file leaf-file-name="rssrecord_summary.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_summary.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.666667" vertical-offset="0" max-vertical-offset="1044">
+            <state vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="1044">
               <caret line="22" column="139" selection-start-line="22" selection-start-column="139" selection-end-line="22" selection-end-column="139" />
               <folding />
             </state>
@@ -134,7 +252,7 @@
       <file leaf-file-name="rss_seven_days.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rss_seven_days.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.0" vertical-offset="0" max-vertical-offset="1098">
+            <state vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1098">
               <caret line="24" column="0" selection-start-line="24" selection-start-column="2" selection-end-line="25" selection-end-column="30" />
               <folding />
             </state>
@@ -144,7 +262,7 @@
       <file leaf-file-name="rssrecord_list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.555555" vertical-offset="228" max-vertical-offset="1314">
+            <state vertical-scroll-proportion="0.0" vertical-offset="702" max-vertical-offset="1314">
               <caret line="39" column="103" selection-start-line="39" selection-start-column="103" selection-end-line="39" selection-end-column="103" />
               <folding />
             </state>
@@ -179,7 +297,6 @@
         <option value="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssup_list.html" />
         <option value="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssdown_list.html" />
         <option value="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssnotchecked_list.html" />
-        <option value="$PROJECT_DIR$/webupdownapp/rssrecords/models.py" />
         <option value="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_list.html" />
         <option value="$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py" />
         <option value="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rss_seven_days.html" />
@@ -188,6 +305,7 @@
         <option value="$PROJECT_DIR$/webupdownapp/urls.py" />
         <option value="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_summary.html" />
         <option value="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rss_over_fourteen.html" />
+        <option value="$PROJECT_DIR$/webupdownapp/rssrecords/models.py" />
       </list>
     </option>
   </component>
@@ -195,10 +313,9 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="-4" />
-    <option name="width" value="1375" />
-    <option name="height" value="904" />
+    <option name="y" value="31" />
+    <option name="width" value="1366" />
+    <option name="height" value="675" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -237,79 +354,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webupdownLOCAL" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webupdownLOCAL" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webupdownLOCAL" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webupdownapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webupdownLOCAL" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webupdownLOCAL" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webupdownapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webupdownLOCAL" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webupdownLOCAL" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webupdownapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rssrecords" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webupdownLOCAL" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webupdownLOCAL" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webupdownapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rssrecords" />
+              <option name="myItemId" value="webupdownlocal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -323,7 +368,7 @@
     <property name="recentsLimit" value="5" />
     <property name="SearchEverywhereHistoryKey" value="dedent&#9;null&#9;null" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/webupdownapp/rssrecords/models.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -521,27 +566,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="webupdownLOCAL" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -567,7 +592,27 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="webupdownLOCAL" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
@@ -608,8 +653,23 @@
       <node-options />
       <gulpfile />
       <tasks />
+      <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="webupdownLOCAL" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -630,20 +690,6 @@
       <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="webupdownLOCAL" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
       <method />
     </configuration>
     <configuration default="false" name="webupdownLOCAL" type="Python.DjangoServer" factoryName="Django server">
@@ -704,7 +750,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1375" height="904" extended-state="6" />
+    <frame x="0" y="31" width="1366" height="675" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -713,7 +759,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24932736" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22909091" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2284041" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.76463264" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32958803" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -746,9 +792,9 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18181819" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24395373" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24395373" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -772,6 +818,38 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rss_seven_to_fourteen.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="1098">
+          <caret line="30" column="66" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_summary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="1044">
+          <caret line="22" column="139" selection-start-line="22" selection-start-column="139" selection-end-line="22" selection-end-column="139" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rss_seven_days.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1098">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="2" selection-end-line="25" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="702" max-vertical-offset="1314">
+          <caret line="39" column="103" selection-start-line="39" selection-start-column="103" selection-end-line="39" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="360">
@@ -878,13 +956,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/PythonScripts/GenericRSSScraper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8306189" vertical-offset="630" max-vertical-offset="1245">
-          <caret line="76" column="92" selection-start-line="76" selection-start-column="92" selection-end-line="76" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/RSS reader testing scripts/GooglePlusScrapeTester (copy).py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="630">
@@ -899,13 +970,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/PythonScripts/GenericTwitterScraper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9796807" vertical-offset="180" max-vertical-offset="1605">
-          <caret line="57" column="16" selection-start-line="54" selection-start-column="0" selection-end-line="65" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/RSS reader testing scripts/GooglePlusScrapeTester.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.27108434" vertical-offset="0" max-vertical-offset="705">
@@ -917,13 +981,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5421687" vertical-offset="0" max-vertical-offset="855">
           <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/django/shortcuts.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="41" max-vertical-offset="2505">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -953,16 +1010,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="771">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/PythonScripts/textfilereader">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2435724" vertical-offset="0" max-vertical-offset="739">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_upload_form.html">
@@ -1060,7 +1107,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.44176707" vertical-offset="0" max-vertical-offset="930">
           <caret line="22" column="80" selection-start-line="22" selection-start-column="80" selection-end-line="22" selection-end-column="80" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1071,43 +1117,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="7236">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1422560977911" expanded="true" signature="1249:1321" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1422560977911" expanded="true" signature="4122:4238" placeholder="UPDATE rssre..." />
-            <marker date="1422560977911" expanded="true" signature="4122:4239" placeholder="UPDATE rssre..." />
-            <marker date="1422560977911" expanded="true" signature="4366:4764" placeholder="UPDATE rssre..." />
-            <marker date="1422560977911" expanded="true" signature="4767:4864" placeholder="UPDATE rssre..." />
-            <marker date="1422560977911" expanded="true" signature="5447:5519" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1422560977911" expanded="true" signature="7523:7640" placeholder="UPDATE rssre..." />
-            <marker date="1422560977911" expanded="true" signature="8049:8146" placeholder="UPDATE rssre..." />
-            <marker date="1422560977911" expanded="true" signature="8742:8965" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1422560977911" expanded="true" signature="11024:11141" placeholder="UPDATE rssre..." />
-            <marker date="1422560977911" expanded="true" signature="11534:11631" placeholder="UPDATE rssre..." />
-            <marker date="1422560977911" expanded="true" signature="12359:12400" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1422560977911" expanded="true" signature="14766:14861" placeholder="UPDATE rssre..." />
-            <marker date="1422560977911" expanded="true" signature="15593:15690" placeholder="UPDATE rssre..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.555555" vertical-offset="228" max-vertical-offset="1314">
+        <state vertical-scroll-proportion="0.0" vertical-offset="702" max-vertical-offset="1314">
           <caret line="39" column="103" selection-start-line="39" selection-start-column="103" selection-end-line="39" selection-end-column="103" />
           <folding />
         </state>
@@ -1117,13 +1129,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3243968" vertical-offset="28" max-vertical-offset="1098">
           <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rss_seven_days.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.0" vertical-offset="0" max-vertical-offset="1098">
+        <state vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1098">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="2" selection-end-line="25" selection-end-column="30" />
           <folding />
         </state>
@@ -1149,7 +1160,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_summary.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.666667" vertical-offset="0" max-vertical-offset="1044">
+        <state vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="1044">
           <caret line="22" column="139" selection-start-line="22" selection-start-column="139" selection-end-line="22" selection-end-column="139" />
           <folding />
         </state>
@@ -1157,7 +1168,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rss_seven_to_fourteen.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="1098">
+        <state vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="1098">
           <caret line="30" column="66" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
           <folding />
         </state>
@@ -1165,9 +1176,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rss_over_fourteen.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49113232" vertical-offset="162" max-vertical-offset="1098">
-          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+        <state vertical-scroll-proportion="-13.0" vertical-offset="567" max-vertical-offset="1098">
+          <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.84" vertical-offset="2666" max-vertical-offset="7236">
+          <caret line="159" column="25" selection-start-line="159" selection-start-column="25" selection-end-line="159" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1422888035468" expanded="true" signature="1249:1321" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1422888035468" expanded="true" signature="4122:4239" placeholder="UPDATE rssre..." />
+            <marker date="1422888035468" expanded="true" signature="4767:4864" placeholder="UPDATE rssre..." />
+            <marker date="1422888035468" expanded="true" signature="5447:5519" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1422888035468" expanded="true" signature="7523:7640" placeholder="UPDATE rssre..." />
+            <marker date="1422888035468" expanded="true" signature="8049:8146" placeholder="UPDATE rssre..." />
+            <marker date="1422888035468" expanded="true" signature="8742:8965" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1422888035468" expanded="true" signature="11024:11141" placeholder="UPDATE rssre..." />
+            <marker date="1422888035468" expanded="true" signature="11534:11631" placeholder="UPDATE rssre..." />
+            <marker date="1422888035468" expanded="true" signature="12359:12400" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1422888035468" expanded="true" signature="14766:14861" placeholder="UPDATE rssre..." />
+            <marker date="1422888035468" expanded="true" signature="15593:15690" placeholder="UPDATE rssre..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5403377" vertical-offset="0" max-vertical-offset="774">
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
