@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="342dc52a-1ade-43c9-95d2-33b2e5c220f7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_summary.html" afterPath="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_summary.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py" afterPath="$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webupdownapp/urls.py" afterPath="$PROJECT_DIR$/webupdownapp/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webupdownapp/rssrecords/views.py" afterPath="$PROJECT_DIR$/webupdownapp/rssrecords/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -53,27 +51,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tasks.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tasks.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="7236">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.47368422" vertical-offset="4788" max-vertical-offset="7470">
+              <caret line="286" column="0" selection-start-line="286" selection-start-column="0" selection-end-line="300" selection-end-column="33" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1422560977911" expanded="true" signature="1249:1321" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-                <marker date="1422560977911" expanded="true" signature="4122:4238" placeholder="UPDATE rssre..." />
-                <marker date="1422560977911" expanded="true" signature="4122:4239" placeholder="UPDATE rssre..." />
-                <marker date="1422560977911" expanded="true" signature="4366:4764" placeholder="UPDATE rssre..." />
-                <marker date="1422560977911" expanded="true" signature="4767:4864" placeholder="UPDATE rssre..." />
-                <marker date="1422560977911" expanded="true" signature="5447:5519" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-                <marker date="1422560977911" expanded="true" signature="7523:7640" placeholder="UPDATE rssre..." />
-                <marker date="1422560977911" expanded="true" signature="8049:8146" placeholder="UPDATE rssre..." />
-                <marker date="1422560977911" expanded="true" signature="8742:8965" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-                <marker date="1422560977911" expanded="true" signature="11024:11141" placeholder="UPDATE rssre..." />
-                <marker date="1422560977911" expanded="true" signature="11534:11631" placeholder="UPDATE rssre..." />
-                <marker date="1422560977911" expanded="true" signature="12359:12400" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-                <marker date="1422560977911" expanded="true" signature="14766:14861" placeholder="UPDATE rssre..." />
-                <marker date="1422560977911" expanded="true" signature="15593:15690" placeholder="UPDATE rssre..." />
+                <marker date="1423001957751" expanded="true" signature="1249:1321" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+                <marker date="1423001957751" expanded="true" signature="4122:4238" placeholder="UPDATE rssre..." />
+                <marker date="1423001957751" expanded="true" signature="4122:4239" placeholder="UPDATE rssre..." />
+                <marker date="1423001957751" expanded="true" signature="4366:4764" placeholder="UPDATE rssre..." />
+                <marker date="1423001957751" expanded="true" signature="4767:4864" placeholder="UPDATE rssre..." />
+                <marker date="1423001957751" expanded="true" signature="5447:5519" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+                <marker date="1423001957751" expanded="true" signature="7523:7640" placeholder="UPDATE rssre..." />
+                <marker date="1423001957751" expanded="true" signature="8049:8146" placeholder="UPDATE rssre..." />
+                <marker date="1423001957751" expanded="true" signature="8742:8973" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+                <marker date="1423001957751" expanded="true" signature="8742:9022" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+                <marker date="1423001957751" expanded="true" signature="8742:9044" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+                <marker date="1423001957751" expanded="true" signature="8742:9066" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+                <marker date="1423001957751" expanded="true" signature="8742:9095" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+                <marker date="1423001957751" expanded="true" signature="8742:9117" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+                <marker date="1423001957751" expanded="true" signature="8742:9141" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+                <marker date="1423001957751" expanded="true" signature="11235:11351" placeholder="UPDATE rssre..." />
+                <marker date="1423001957751" expanded="true" signature="11550:11667" placeholder="UPDATE rssre..." />
+                <marker date="1423001957751" expanded="true" signature="12069:12166" placeholder="UPDATE rssre..." />
+                <marker date="1423001957751" expanded="true" signature="12894:12935" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+                <marker date="1423001957751" expanded="true" signature="15301:15396" placeholder="UPDATE rssre..." />
+                <marker date="1423001957751" expanded="true" signature="16128:16225" placeholder="UPDATE rssre..." />
               </folding>
             </state>
           </provider>
@@ -82,11 +87,9 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webupdownapp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="883" max-vertical-offset="1710">
-              <caret line="77" column="60" selection-start-line="77" selection-start-column="60" selection-end-line="77" selection-end-column="60" />
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1710">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="11" selection-end-column="46" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -94,58 +97,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4410">
-              <caret line="27" column="101" selection-start-line="27" selection-start-column="101" selection-end-line="27" selection-end-column="101" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rss_over_fourteen.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rss_over_fourteen.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49113232" vertical-offset="162" max-vertical-offset="1098">
-              <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rss_seven_to_fourteen.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rss_seven_to_fourteen.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="1098">
-              <caret line="30" column="66" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rssrecord_summary.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_summary.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.666667" vertical-offset="0" max-vertical-offset="1044">
-              <caret line="22" column="139" selection-start-line="22" selection-start-column="139" selection-end-line="22" selection-end-column="139" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rss_seven_days.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rss_seven_days.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.0" vertical-offset="0" max-vertical-offset="1098">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="2" selection-end-line="25" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rssrecord_list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.555555" vertical-offset="228" max-vertical-offset="1314">
-              <caret line="39" column="103" selection-start-line="39" selection-start-column="103" selection-end-line="39" selection-end-column="103" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="3346" max-vertical-offset="4392">
+              <caret line="100" column="20" selection-start-line="100" selection-start-column="20" selection-end-line="100" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -181,13 +134,13 @@
         <option value="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssnotchecked_list.html" />
         <option value="$PROJECT_DIR$/webupdownapp/rssrecords/models.py" />
         <option value="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_list.html" />
-        <option value="$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py" />
         <option value="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rss_seven_days.html" />
         <option value="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rss_seven_to_fourteen.html" />
-        <option value="$PROJECT_DIR$/webupdownapp/rssrecords/views.py" />
         <option value="$PROJECT_DIR$/webupdownapp/urls.py" />
         <option value="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_summary.html" />
         <option value="$PROJECT_DIR$/webupdownapp/templates/rssrecords/rss_over_fourteen.html" />
+        <option value="$PROJECT_DIR$/webupdownapp/rssrecords/views.py" />
+        <option value="$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py" />
       </list>
     </option>
   </component>
@@ -1071,40 +1024,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="7236">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1422560977911" expanded="true" signature="1249:1321" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1422560977911" expanded="true" signature="4122:4238" placeholder="UPDATE rssre..." />
-            <marker date="1422560977911" expanded="true" signature="4122:4239" placeholder="UPDATE rssre..." />
-            <marker date="1422560977911" expanded="true" signature="4366:4764" placeholder="UPDATE rssre..." />
-            <marker date="1422560977911" expanded="true" signature="4767:4864" placeholder="UPDATE rssre..." />
-            <marker date="1422560977911" expanded="true" signature="5447:5519" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1422560977911" expanded="true" signature="7523:7640" placeholder="UPDATE rssre..." />
-            <marker date="1422560977911" expanded="true" signature="8049:8146" placeholder="UPDATE rssre..." />
-            <marker date="1422560977911" expanded="true" signature="8742:8965" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1422560977911" expanded="true" signature="11024:11141" placeholder="UPDATE rssre..." />
-            <marker date="1422560977911" expanded="true" signature="11534:11631" placeholder="UPDATE rssre..." />
-            <marker date="1422560977911" expanded="true" signature="12359:12400" placeholder="SELECT url,u..rssrecords_rssrecord..." />
-            <marker date="1422560977911" expanded="true" signature="14766:14861" placeholder="UPDATE rssre..." />
-            <marker date="1422560977911" expanded="true" signature="15593:15690" placeholder="UPDATE rssre..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.555555" vertical-offset="228" max-vertical-offset="1314">
@@ -1131,33 +1050,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webupdownapp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="883" max-vertical-offset="1710">
-          <caret line="77" column="60" selection-start-line="77" selection-start-column="60" selection-end-line="77" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4410">
-          <caret line="27" column="101" selection-start-line="27" selection-start-column="101" selection-end-line="27" selection-end-column="101" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1710">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="11" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rssrecord_summary.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.666667" vertical-offset="0" max-vertical-offset="1044">
-          <caret line="22" column="139" selection-start-line="22" selection-start-column="139" selection-end-line="22" selection-end-column="139" />
+        <state vertical-scroll-proportion="0.61391544" vertical-offset="0" max-vertical-offset="1044">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webupdownapp/templates/rssrecords/rss_seven_to_fourteen.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="1098">
+        <state vertical-scroll-proportion="0.7366985" vertical-offset="0" max-vertical-offset="1098">
           <caret line="30" column="66" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
           <folding />
         </state>
@@ -1168,6 +1077,55 @@
         <state vertical-scroll-proportion="0.49113232" vertical-offset="162" max-vertical-offset="1098">
           <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3346" max-vertical-offset="4392">
+          <caret line="100" column="20" selection-start-line="100" selection-start-column="20" selection-end-line="100" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webupdownapp/rssrecords/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47368422" vertical-offset="4788" max-vertical-offset="7470">
+          <caret line="286" column="0" selection-start-line="286" selection-start-column="0" selection-end-line="300" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1423001957751" expanded="true" signature="1249:1321" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1423001957751" expanded="true" signature="4122:4238" placeholder="UPDATE rssre..." />
+            <marker date="1423001957751" expanded="true" signature="4122:4239" placeholder="UPDATE rssre..." />
+            <marker date="1423001957751" expanded="true" signature="4366:4764" placeholder="UPDATE rssre..." />
+            <marker date="1423001957751" expanded="true" signature="4767:4864" placeholder="UPDATE rssre..." />
+            <marker date="1423001957751" expanded="true" signature="5447:5519" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1423001957751" expanded="true" signature="7523:7640" placeholder="UPDATE rssre..." />
+            <marker date="1423001957751" expanded="true" signature="8049:8146" placeholder="UPDATE rssre..." />
+            <marker date="1423001957751" expanded="true" signature="8742:8973" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1423001957751" expanded="true" signature="8742:9022" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1423001957751" expanded="true" signature="8742:9044" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1423001957751" expanded="true" signature="8742:9066" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1423001957751" expanded="true" signature="8742:9095" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1423001957751" expanded="true" signature="8742:9117" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1423001957751" expanded="true" signature="8742:9141" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1423001957751" expanded="true" signature="11235:11351" placeholder="UPDATE rssre..." />
+            <marker date="1423001957751" expanded="true" signature="11550:11667" placeholder="UPDATE rssre..." />
+            <marker date="1423001957751" expanded="true" signature="12069:12166" placeholder="UPDATE rssre..." />
+            <marker date="1423001957751" expanded="true" signature="12894:12935" placeholder="SELECT url,u..rssrecords_rssrecord..." />
+            <marker date="1423001957751" expanded="true" signature="15301:15396" placeholder="UPDATE rssre..." />
+            <marker date="1423001957751" expanded="true" signature="16128:16225" placeholder="UPDATE rssre..." />
+          </folding>
         </state>
       </provider>
     </entry>

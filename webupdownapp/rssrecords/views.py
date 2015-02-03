@@ -24,7 +24,6 @@ def rssrecord_summary(request):
     seven_days_or_less = Rssrecord.objects.filter(owner=request.user, dayssinceupdate__lte=7).count()
     seven_days_to_fourteen_days = Rssrecord.objects.filter(owner=request.user, dayssinceupdate__gt=7,
                                                            dayssinceupdate__lte=14).count()
-
     over_fourteen_days = Rssrecord.objects.filter(owner=request.user, dayssinceupdate__gt=14).count()
 
     return render(request, 'rssrecords/rssrecord_summary.html', {'totalup': totalup,
@@ -42,7 +41,7 @@ def rssrecord_summary(request):
 class RssRecordList(ListView):
 
     model = Rssrecord
-    paginate_by = 10
+    paginate_by = 50
     template_name = 'rssrecords/rssrecord_list.html'
     context_object_name = 'rssrecords'
 
@@ -67,7 +66,7 @@ class RssRecordList(ListView):
 class RssUpList(ListView):
 
     model = Rssrecord
-    #paginate_by = 10
+    paginate_by = 50
     template_name = 'rssrecords/rssup_list.html'
     context_object_name = 'rssup'
 
@@ -83,7 +82,7 @@ class RssUpList(ListView):
 class RssDownList(ListView):
 
     model = Rssrecord
-    #paginate_by = 10
+    paginate_by = 50
     template_name = 'rssrecords/rssdown_list.html'
     context_object_name = 'rssdown'
 
@@ -99,7 +98,7 @@ class RssDownList(ListView):
 class RssNotCheckedList(ListView):
 
     model = Rssrecord
-    #paginate_by = 10
+    paginate_by = 50
     template_name = 'rssrecords/rssnotchecked_list.html'
     context_object_name = 'rssnotchecked'
 

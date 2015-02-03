@@ -242,7 +242,9 @@ def RssUpdate():
 
     cur = conn.cursor()
     cur.execute("""SELECT url,uuid FROM rssrecords_rssrecord WHERE url LIKE '%/feed%' OR url LIKE '%/rss%'
-        OR url LIKE '%uploads?orderby' OR url LIKE '%.xml%' OR url LIKE '%format=atom%' OR url like '%feedburner%' OR url LIKE '%.rss%'""")
+        OR url LIKE '%uploads?orderby' OR url LIKE '%.xml%' OR url LIKE '%format=atom%' OR url like '%feedburner%'
+        OR url LIKE '%.rss%' OR url LIKE '%feed=rss2%' OR url LIKE '%/atom/%' OR url LIKE '%.atom%' OR url LIKE '%?atom%'
+        OR url LIKE '%.rdf%' OR url LIKE '%=atom%' OR url LIKE '%rss.xml%'""")
     rows = cur.fetchall()
 
     print "\nShow me the filtered RSS URLs from the database:\n"
@@ -256,7 +258,7 @@ def RssUpdate():
             RSSfeed = feedparser.parse(row[0])
             print RSSfeed['feed']['title'], " Feed appears to be up! @: ", row[0]
             print "with UUID: ", row[1]
-            time.sleep(randint(1,3)) # random wait period to slow down IP blocking
+            #time.sleep(0.5) # wait period to slow down IP blocking
             try:
                 #print RSSfeed['feed']['title'],":", str(row).strip('[\'\']')
                 #print RSSfeed.entries[0].published_parsed
@@ -283,10 +285,21 @@ def RssUpdate():
 
             try:
                 timesinceupdate = int(round(difference/86400))
-                id = row[1]
-                cur.execute("""UPDATE rssrecords_rssrecord SET upordown = 'UP', last_checked = CURRENT_TIMESTAMP, dayssinceupdate = %s WHERE uuid = %s""", (timesinceupdate,id,))
-                print "successfully updated database\n"
-                conn.commit()
+
+                if timesinceupdate < 0:
+
+                    id = row[1]
+                    cur.execute("""UPDATE rssrecords_rssrecord SET upordown = 'UP', last_checked = CURRENT_TIMESTAMP, dayssinceupdate = 0 WHERE uuid = %s""", (id,))
+                    print "successfully updated database\n"
+                    conn.commit()
+
+                else:
+
+                    id = row[1]
+                    cur.execute("""UPDATE rssrecords_rssrecord SET upordown = 'UP', last_checked = CURRENT_TIMESTAMP, dayssinceupdate = %s WHERE uuid = %s""", (timesinceupdate,id,))
+                    print "successfully updated database\n"
+                    conn.commit()
+
             except:
                 print "unable to execute update to database\n"
 
