@@ -1,4 +1,4 @@
-#!/home/adam/PycharmProjects/webupdown/venv/bin/python
+#!/home/adam/PycharmProjects/webupdownlocal/venv/bin/python
 from django.core import management
 
 if __name__ == "__main__":
