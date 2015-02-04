@@ -58,7 +58,6 @@ INSTALLED_APPS = (
     'webupdownapp.subscribers',
     'webupdownapp.accounts',
     'webupdownapp.rssrecords',
-    'csvimport.app.CSVImportConf', # use AppConfig for django >=1.7 csvimport >=2.2
 )
 
 MIDDLEWARE_CLASSES = (

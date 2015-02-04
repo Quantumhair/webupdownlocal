@@ -58,6 +58,7 @@ INSTALLED_APPS = (
     'webupdownapp.subscribers',
     'webupdownapp.accounts',
     'webupdownapp.rssrecords',
+    'csvimport.app.CSVImportConf', # use AppConfig for django >=1.7 csvimport >=2.2
 )
 
 MIDDLEWARE_CLASSES = (
@@ -141,4 +142,4 @@ STRIPE_PUBLISHABLE_KEY = get_env_variable('STRIPE_PUBLISHABLE_KEY')
 # Current Subscription Price
 SUBSCRIPTION_PRICE = 500
 
-LOGIN_REDIRECT_URL = '/rssrecords/list/'
+LOGIN_REDIRECT_URL = '/rssrecords/summary/'

@@ -1,4 +1,4 @@
-#!/home/adam/PycharmProjects/webupdownlocal/venv/bin/python
+#!/home/adam/PycharmProjects/webupdownLOCAL/venv/bin/python
 # EASY-INSTALL-ENTRY-SCRIPT: 'static3==0.5.1','console_scripts','static'
 __requires__ = 'static3==0.5.1'
 import sys
