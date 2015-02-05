@@ -30,7 +30,8 @@
                     <li class="al-item">
                         <span class="al-url">URL: {{ rssrecord.url }}</span>
                         <br>
-{#                        <a href="{{ rssrecord.get_absolute_url }}"><h4 class="al-name">{{ rssrecord.name }}</h4></a>#}
+{#                      <a href="{{ rssrecord.get_absolute_url }}"><h4 class="al-name">{{ rssrecord.name }}</h4></a>#}
+                        <a class=ad-control edit-account btn btn-link" href="{{ rssrecord.get_update_url }}">Edit</a>
                         <span class="al-created">First uploaded on {{ rssrecord.created_on }}</span>
                         <br>
                         <span class="al-created">Last checked on {{ rssrecord.last_checked }} GMT</span>

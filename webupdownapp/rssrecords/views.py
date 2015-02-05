@@ -41,7 +41,7 @@ def rssrecord_summary(request):
 class RssRecordList(ListView):
 
     model = Rssrecord
-    paginate_by = 50
+    paginate_by = 25
     template_name = 'rssrecords/rssrecord_list.html'
     context_object_name = 'rssrecords'
 
@@ -66,7 +66,7 @@ class RssRecordList(ListView):
 class RssUpList(ListView):
 
     model = Rssrecord
-    paginate_by = 50
+    paginate_by = 25
     template_name = 'rssrecords/rssup_list.html'
     context_object_name = 'rssup'
 
@@ -82,7 +82,7 @@ class RssUpList(ListView):
 class RssDownList(ListView):
 
     model = Rssrecord
-    paginate_by = 50
+    paginate_by = 25
     template_name = 'rssrecords/rssdown_list.html'
     context_object_name = 'rssdown'
 
@@ -98,7 +98,7 @@ class RssDownList(ListView):
 class RssNotCheckedList(ListView):
 
     model = Rssrecord
-    paginate_by = 50
+    paginate_by = 25
     template_name = 'rssrecords/rssnotchecked_list.html'
     context_object_name = 'rssnotchecked'
 
