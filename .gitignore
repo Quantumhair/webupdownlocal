@@ -23,6 +23,7 @@ var/
 *.egg
 **/.idea/workspace.xml
 */.idea/tasks.xml
+.idea/workspace.xml
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
