@@ -39,6 +39,7 @@ def AllUpdate():
 
 def TwitterUpdate():
 
+    start_time_twitter = datetime.now()
     conn = None
     x = 0
     format = None
@@ -142,8 +143,12 @@ def TwitterUpdate():
                 print "unable to execute update to database Error 4\n"
 
     conn.close()
+    end_time_twitter = datetime.now()
+    print "Twitter update took this long: ", end_time_twitter - start_time_twitter
 
 def GooglePlusUpdate():
+
+    start_time_google = datetime.now()
     conn = None
     x = 0
     format = None
@@ -225,9 +230,13 @@ def GooglePlusUpdate():
                 print "unable to execute update to database Error 4\n"
 
     conn.close()
+    end_time_google = datetime.now()
+    print "Google Plus update took this long: ", end_time_google - start_time_google
 
 
 def RssUpdate():
+
+    start_time_rss = datetime.now()
     conn = None
     holder = []
     RSSfeed = None
@@ -314,6 +323,8 @@ def RssUpdate():
                 print "unable to execute update to database\n"
 
     conn.close()
+    end_time_rss = datetime.now()
+    print "RSS update took this long: ", end_time_rss - start_time_rss
 
 
 def dbtest():

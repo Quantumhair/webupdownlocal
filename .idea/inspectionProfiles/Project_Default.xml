@@ -5,13 +5,28 @@
     <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="ignoredPackages">
         <value>
-          <list size="6">
+          <list size="21">
             <item index="0" class="java.lang.String" itemvalue="lxml" />
             <item index="1" class="java.lang.String" itemvalue="easygui" />
             <item index="2" class="java.lang.String" itemvalue="chardet" />
             <item index="3" class="java.lang.String" itemvalue="django-csvimport" />
             <item index="4" class="java.lang.String" itemvalue="python-dateutil" />
             <item index="5" class="java.lang.String" itemvalue="six" />
+            <item index="6" class="java.lang.String" itemvalue="feedparser" />
+            <item index="7" class="java.lang.String" itemvalue="gunicorn" />
+            <item index="8" class="java.lang.String" itemvalue="django-shortuuidfield" />
+            <item index="9" class="java.lang.String" itemvalue="billiard" />
+            <item index="10" class="java.lang.String" itemvalue="django-toolbelt" />
+            <item index="11" class="java.lang.String" itemvalue="dj-database-url" />
+            <item index="12" class="java.lang.String" itemvalue="anyjson" />
+            <item index="13" class="java.lang.String" itemvalue="pytz" />
+            <item index="14" class="java.lang.String" itemvalue="stripe" />
+            <item index="15" class="java.lang.String" itemvalue="BeautifulSoup" />
+            <item index="16" class="java.lang.String" itemvalue="shortuuid" />
+            <item index="17" class="java.lang.String" itemvalue="requests" />
+            <item index="18" class="java.lang.String" itemvalue="dj-static" />
+            <item index="19" class="java.lang.String" itemvalue="static3" />
+            <item index="20" class="java.lang.String" itemvalue="psycopg2" />
           </list>
         </value>
       </option>
