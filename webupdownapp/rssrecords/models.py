@@ -12,7 +12,7 @@ class Rssrecord(models.Model):
     desc = models.TextField(blank=True)
     owner = models.ForeignKey(User)
     created_on = models.DateField(auto_now_add=True)
-    last_checked = models.DateField(auto_now=True, default=date(1970,01,01))
+    last_checked = models.DateField(auto_now=False, default=date(1970,01,01))
     upordown = models.CharField(max_length=15, default='not yet checked')
     dayssinceupdate = models.IntegerField(default=9999)
     group = models.CharField(max_length=100, default='No Group')

@@ -53,7 +53,7 @@ def TwitterUpdate():
         print "I am unable to connect to the database\n"
 
     cur = conn.cursor()
-    cur.execute("""SELECT url,uuid FROM rssrecords_rssrecord WHERE url LIKE '%twitter.com%'""")
+    cur.execute("""SELECT url,uuid FROM rssrecords_rssrecord WHERE url LIKE '%https://twitter.com%'""")
     rows = cur.fetchall()
 
     print "\nShow me the filtered Twitter URLs from the database:\n"
